@@ -211,7 +211,7 @@ code {
 	}
 
 	.check,
-	.calendar,
+	.rss-items,
 	.user {
 		list-style: none;
 		padding: 0;
@@ -229,7 +229,7 @@ code {
 			background: url("../../images/icon-user.png") no-repeat scroll 0px 5px transparent;
 		}
 		
-		.calendar li {
+		.rss-items li {
 			margin-bottom: 20px;
 			padding-left: 28px;
 			background: url("../../images/icon-calendar.png") no-repeat scroll 0px 5px transparent;
