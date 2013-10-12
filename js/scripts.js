@@ -110,7 +110,7 @@ $(document).ready(function() {
 /*-----------------------------------------------------------------------------------*/
 	$('.speaker-info').hide();
 	
-	$('<a href="#" class="event-ticker"></a>').appendTo('.event-date');
+	//$('<a href="#" class="event-ticker"></a>').appendTo('.event-date');
 	
 	//hide
 	$('.event-date a').click(function(e) {
