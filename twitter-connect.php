@@ -25,4 +25,4 @@ $accesstokensecret = "token-secret";			// Access Token Secret
 /*-----------------------------------------------------------------------------------*/
 /*	Dont touch the line below! if you do the sky will fall on your head!
 /*-----------------------------------------------------------------------------------*/
-include 'tweets/tweets.v1.1.php';
+include 'tweets/tweets.v1.1.html';
