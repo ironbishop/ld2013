@@ -305,32 +305,7 @@
 				#topSocial li.topFacebook a:hover { background-position: bottom center; }
 				#topSocial li.topMail a:hover { background-position: bottom center; }
 				#topSocial li.topRss a:hover { background-position: bottom center; }
-
-	.userIcons {
-		margin-left: 20px;
-	}
-
-	.userIcons a.topWeb,
-	.userIcons a.topTwitter,
-	.userIcons a.topMail {
-		text-indent: -9999px;
-		width: 24px;
-		height: 24px;
-		display: inline-block;
-		background: red;
-	}
-
-	.userIcons a.topWeb {
-		background: url('images/icon-web.png') top center no-repeat;
-	}
-
-	.userIcons a.topTwitter {
-		background: url('images/icon-twitter.png') top center no-repeat;
-	}
-
-	.userIcons a.topMail {
-		background: url('images/icon-mail.png') top center no-repeat;
-	}
+	
 				
 /* Counter/Buy Tickets button */
 .buy-tickets {
@@ -1053,19 +1028,48 @@ ul#speakers-secondary-list {
 
 }
 
+.venue {
+    background: url('../../images/placeholders/msg-large.png') #fff top right no-repeat !important;
+}
+
+.userIcons {
+    margin-left: 20px;
+}
+
+.userIcons a.topWeb,
+.userIcons a.topTwitter,
+.userIcons a.topMail {
+    text-indent: -9999px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: red;
+}
+
+.userIcons a.topWeb {
+    background: url('images/icon-web.png') top center no-repeat;
+}
+
+.userIcons a.topTwitter {
+    background: url('images/icon-twitter.png') top center no-repeat;
+}
+
+.userIcons a.topMail {
+    background: url('images/icon-mail.png') top center no-repeat;
+}
+
 table .first {
-     border-right: 1px dotted #000000;
+    border-right: 1px dotted #000000;
 }
 
 table thead {
-     border-bottom: 1px dotted #000000;
+    border-bottom: 1px dotted #000000;
 }
 
 table tr th {
-     font-weight: bold;
+    font-weight: bold;
 }
 
 table tr td {
-     padding: 7px;
+    padding: 7px;
 }
-

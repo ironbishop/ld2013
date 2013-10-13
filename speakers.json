@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Massimo Nuvoli",
+        "title": "System Architect",
+        "img": "massimo_nuvoli.jpg",
+        "id": "MassimoNuvoli"
+    },
+    {
+        "name": "Cheip",
+        "title": "Ricercatore",
+        "img": "cheip.jpeg",
+        "id": "Cheip"
+    },
+    {
+        "name": "Federico Fissore",
+        "title": "Programmatore",
+        "img": "fridrik.jpeg",
+        "id": "FedericoFissore"
+    },
+    {
+        "name": "Dimitri Bellini",
+        "title": "System Integrator",
+        "img": "dimitri_bellini.jpg",
+        "id": "DimitriBellini"
+    },
+    {
+        "name": "Paolo Doz",
+        "title": "Linux Specialist",
+        "img": "paolo_doz.jpg",
+        "id": "PaoloDoz"
+    },
+    {
+        "name": "Ilario Pittau",
+        "title": "Linux Engineer",
+        "img": "ilariopittau.jpg",
+        "id": "PaoloDoz"
+    },
+    {
+        "name": "Davide Mainardi",
+        "title": "IT Manager",
+        "img": "davide_mainardi.jpg",
+        "id": "DavideMainardi"
+    },
+    {
+        "name": "Luigi Maselli",
+        "title": "Web Developer",
+        "img": "luigi_maselli.jpg",
+        "id": "LuigiMaselli"
+    },
+    {
+        "name": "Andrea D'Este",
+        "title": "Web Developer",
+        "img": "andrea_deste.jpg",
+        "id": "AndreaDEste"
+    },
+    {
+        "name": "Marco Zanasso",
+        "title": "System Administrator",
+        "img": "marco_zanasso.jpg",
+        "id": "MarcoZanasso"
+    },
+    {
+        "name": "Paolo Stagno",
+        "title": "Security Advisor",
+        "img": "paolo_stagno.jpg",
+        "id": "PaoloStagno"
+    },
+    {
+        "name": "Andrea Negro",
+        "title": "Software Engineer",
+        "img": "andrea_negro.jpg",
+        "id": "AndreaNegro"
+    }
+]

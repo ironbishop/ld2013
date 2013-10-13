@@ -1,427 +1,130 @@
-<!doctype html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
+---
+layout: default
+---
 
-	<!-- Basic Page Needs
-  ================================================== -->
-	<title>Linux Day Torino 2013: 26 ottobre</title>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
-	
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="css/orange/base.css" />
-	<link rel="stylesheet" href="css/orange/flexslider.css" />
-	<link rel="stylesheet" href="css/orange/layout.css" />
-	<link rel="stylesheet" href="css/skeleton.min.css" />
-	<link rel="stylesheet" href="css/jquery.countdown.css" />
-	
-	<noscript>
-			<link rel="stylesheet" href="css/noscript.css" />
-	</noscript>
-	
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico" />
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
-	
-</head>
+<div id="sliderWraper">
+    <div id="featuredSlider" class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="images/hp2.jpg" width="1600" height="1200" alt="" />
+                <div class="featured-wraper container container-twelve">
+                    <div class="featured-content seven columns">
+                        <h1 class="featured-title">Quest'anno siamo al Politecnico!</h1>
+                        <div class="featured-entry">
+                            <p>Quest'anno il Linux Day Torino si terr&agrave; presso la Cittadella Politecnica che si trova tra <a href="venue.html">c.so Castelfidardo e via Boggio</a>.</p>
+                        </div><!-- .featured-entry-->
+                    </div><!-- .featured-content -->
+                </div><!-- .featured-wraper -->
+            </li>
+            <li>
+                <img src="images/hp1.jpg" width="1600" height="1200" alt="" />
+                <div class="featured-wraper container container-twelve">
+                    <div class="featured-content seven columns">
+                        <h1 class="featured-title">Linux Installation Party</h1>
+                        <div class="featured-entry">
+                            <p>Vorresti passare a GNU/Linux ma non te la senti di farlo da solo o da sola? Porta il tuo PC: i volontari ti aiuteranno a installarlo e a personalizzarlo secondo le tue esigenze.</p>
+                        </div><!-- .featured-entry-->
+                    </div><!-- .featured-content -->
+                </div><!-- .featured-wraper -->
+            </li>
+            <li>
+                <img src="images/hp3.jpg" width="1600" height="1200" alt="" />
+                <div class="featured-wraper container container-twelve">
+                    <div class="featured-content seven columns">
+                        <h1 class="featured-title">20 talk</h1>
+                        <div class="featured-entry">
+                            <p>20 speaker per 20 interventi. Dai pi&ugrave; semplici ai pi&ugrave; avanzati. Che tu sia novizio o hacker, c'&egrave; pi&ugrave; di un talk che ti pu&ograve; interessare. <a href="schedule.html">Consulta il programma</a>.</p>
+                        </div><!-- .featured-entry-->
+                    </div><!-- .featured-content -->
+                </div><!-- .featured-wraper -->
+            </li>
+        </ul>
+    </div>
+</div><!-- #sliderWraper -->
 
-<body>
-	
-	<div id="headWraper">
-		<header class="container container-twelve">
-			<div id="logo" class="five columns">
-				<a href="index.html"><img src="images/logo.png" alt="logo" /></a>
-				<a href="#" id="mobile-menu"><img src="images/menu-mobile.png" alt="menu-mobile" width="38" height="25" /></a>
-				<div id="mobileNav">
-					<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">Info</a>
-						<ul>
-							<li><a href="about.html">FAQ</a></li>
-							<li><a href="venue.html">Location</a></li>
-						</ul>
-					</li>
-					<li><a href="schedule.html">Programma</a></li>
-				</ul>
-				</div><!-- #mobileNav -->
-			</div><!-- #logo -->
-			<nav id="mainNav" class="seven columns">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">Info</a>
-						<ul>
-							<li><a href="about.html">FAQ</a></li>
-							<li><a href="venue.html">Location</a></li>
-						</ul>
-					</li>
-					<li><a href="schedule.html">Programma</a></li>
-				</ul>
-			</nav><!-- .mainNav -->
-		</header>
-	</div><!-- #headWraper -->
-	
-	<div id="sliderWraper">
-		<div id="featuredSlider" class="flexslider">
-			<ul class="slides">
-				<li>
-					<img src="images/hp2.jpg" width="1600" height="1200" alt="" />
-					<div class="featured-wraper container container-twelve">
-						<div class="featured-content seven columns">
-							<h1 class="featured-title">Quest'anno siamo al Politecnico!</h1>
-							<div class="featured-entry">
-								<p>Quest'anno il Linux Day Torino si terr&agrave; presso la Cittadella Politecnica che si trova tra <a href="venue.html">c.so Castelfidardo e via Boggio</a>.</p>
-							</div><!-- .featured-entry-->
-						</div><!-- .featured-content -->
-					</div><!-- .featured-wraper -->
-				</li>
-				<li>
-					<img src="images/hp1.jpg" width="1600" height="1200" alt="" />
-					<div class="featured-wraper container container-twelve">
-						<div class="featured-content seven columns">
-							<h1 class="featured-title">Linux Installation Party</h1>
-							<div class="featured-entry">
-								<p>Vorresti passare a GNU/Linux ma non te la senti di farlo da solo o da sola? Porta il tuo PC: i volontari ti aiuteranno a installarlo e a personalizzarlo secondo le tue esigenze.</p>
-							</div><!-- .featured-entry-->
-						</div><!-- .featured-content -->
-					</div><!-- .featured-wraper -->
-				</li>
-				<li>
-					<img src="images/hp3.jpg" width="1600" height="1200" alt="" />
-					<div class="featured-wraper container container-twelve">
-						<div class="featured-content seven columns">
-							<h1 class="featured-title">20 talk</h1>
-							<div class="featured-entry">
-								<p>20 speaker per 20 interventi. Dai pi&ugrave; semplici ai pi&ugrave; avanzati. Che tu sia novizio o hacker, c'&egrave; pi&ugrave; di un talk che ti pu&ograve; interessare. <a href="schedule.html">Consulta il programma</a>.</p>
-							</div><!-- .featured-entry-->
-						</div><!-- .featured-content -->
-					</div><!-- .featured-wraper -->
-				</li>
-			</ul>
-		</div>
-	</div><!-- #sliderWraper -->
-	
-	<div id="twitterWraper">
-		<div class="container container-twelve">
-			<div id="tweet" class="nine columns">
-				<div class="tweetsWrapper">
-					<!--
-					<?php //include tweets
-						include 'twitter-connect.html';
-					?>
-					-->
-				</div>
-			</div><!-- .nine -->
-			<div id="topSocial" class="three columns">
-				<ul>
-	    			<li class="topTwitter"><a href="https://twitter.com/linuxdayitalia">Twitter</a></li>
-	    			<li class="topFacebook"><a href="https://www.facebook.com/LinuxDayTorino">Facebook</a></li>
-	    			<li class="topMail"><a href="http://linuxdaytorino.org/cgi-bin/mailman/listinfo/organizzazione">Mail</a></li>
-	    		</ul>
-			</div><!-- three -->
-		</div><!-- .container -->
-	</div><!-- #twitterWraper -->
+<div id="twitterWraper">
+    <div class="container container-twelve">
+        <div id="tweet" class="nine columns">
+            <div class="tweetsWrapper">
+                <!--
+                <?php //include tweets
+                    include 'twitter-connect.html';
+                ?>
+                -->
+            </div>
+        </div><!-- .nine -->
+        <div id="topSocial" class="three columns">
+            <ul>
+                <li class="topTwitter"><a href="https://twitter.com/linuxdayitalia">Twitter</a></li>
+                <li class="topFacebook"><a href="https://www.facebook.com/LinuxDayTorino">Facebook</a></li>
+                <li class="topMail"><a href="http://linuxdaytorino.org/cgi-bin/mailman/listinfo/organizzazione">Mail</a></li>
+            </ul>
+        </div><!-- three -->
+    </div><!-- .container -->
+</div><!-- #twitterWraper -->
 
-	<div class="container container-twelve">
-	
-		<div id="counter-container" class="twelve columns container-box">
-			<div class="seven columns alpha">
-				<div class="container-box-inner em-large">
-					<p>20 speaker per 20 talk, semplici e avanzati. Quest'anno siamo al Poli!</p>
-				</div>
-			</div>
-			<div class="five columns omega">
-				<div class="container-box-inner">
-					<div class="counter">
-					</div><!-- #counter -->
-					<div class="buy-tickets">
-						<a href="schedule.html">26 Ottobre 2013</a>
-					</div>
-				</div>
-			</div>
-		</div><!-- .twelve -->
-		<div class="clear"></div>
-		<div class="box-bottom bottom-full"></div>		
-		<div id="speakers-wraper" class="container container-twelve">
-			<div class="twelve columns">
-				<div class=" container-box">
-					<div class="container-box-inner">
-						<h2 class="heading center"><span>Gli speaker</span></h2>
-						<div id="speakers">
-							<div id="carousel" class="flexslider">
-								<ul class="slides">
-									<li>
-										<a href="#"><img src="images/speakers/massimo_nuvoli.jpg" alt="Massimo Nuvoli" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="#">Massimo Nuvoli</a><br />
-						    	    		<span class="small">System Architect</span>
-						    	    	</div><!-- .speaker-desc -->
-									</li>
-									<li>
-										<a href="schedule.html#Cheip"><img src="images/speakers/cheip.jpeg" alt="Cheip" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#Cheip">Cheip</a><br />
-						    	    		<span class="small">Ricercatore</span>
-						    	    	</div><!-- .speaker-desc -->
-									</li>
-									<li>
-										<a href="schedule.html#FedericoFissore"><img src="images/speakers/fridrik.jpeg" alt="Federico Fissore" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#FedericoFissore">Federico Fissore</a><br />
-						    	    		<span class="small">Programmatore</span>
-						    	    	</div><!-- .speaker-desc -->										
-									</li>
-									<li>
-										<a href="schedule.html#DimitriBellini"><img src="images/speakers/dimitri_bellini.jpg" alt="Dimitri Bellini" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#DimitriBellini">Dimitri Bellini</a><br />
-						    	    		<span class="small">System Integrator</span>
-						    	    	</div><!-- .speaker-desc -->
-									</li>
-									<li>
-										<a href="schedule.html#PaoloDoz"><img src="images/speakers/paolo_doz.jpg" alt="Paolo Doz" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#PaoloDoz">Paolo Doz</a><br />
-						    	    		<span class="small">Linux Specialist</span>
-						    	    	</div><!-- .speaker-desc -->
-									</li>
-									<li>
-										<a href="schedule.html#PaoloDoz"><img src="images/speakers/ilariopittau.jpg" alt="Paolo Doz" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#PaoloDoz">Ilario Pittau</a><br />
-						    	    		<span class="small">Linux Engineer</span>
-						    	    	</div><!-- .speaker-desc -->
-									</li>
-									<li>
-										<a href="schedule.html#DavideMainardi"><img src="images/speakers/davide_mainardi.jpg" alt="Davide Mainardi" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#DavideMainardi">Davide Mainardi</a><br />
-						    	    		<span class="small">IT Manager</span>
-						    	    	</div><!-- .speaker-desc -->
-									</li>
-									<li>
-										<a href="schedule.html#LuigiMaselli"><img src="images/speakers/luigi_maselli.jpg" alt="Luigi Maselli" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#LuigiMaselli">Luigi Maselli</a><br />
-						    	    		<span class="small">Web Developer</span>
-						    	    	</div><!-- .speaker-desc -->
-									</li>
-									<li>
-										<a href="schedule.html#AndreaDEste"><img src="images/speakers/andrea_deste.jpg" alt="Andrea D'Este" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#AndreaDEste">Andrea D'Este</a><br />
-						    	    		<span class="small">Web Developer</span>
-						    	    	</div><!-- .speaker-desc -->									
-									</li>
-									<li>
-										<a href="schedule.html#MarcoZanasso"><img src="images/speakers/marco_zanasso.jpg" alt="Marco Zanasso" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#MarcoZanasso">Marco Zanasso</a><br />
-						    	    		<span class="small">System Administrator</span>
-						    	    	</div><!-- .speaker-desc -->
-									</li>
-									<li>
-										<a href="schedule.html#PaoloStagno"><img src="images/speakers/paolo_stagno.jpg" alt="Paolo Stagno" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#PaoloStagno">Paolo Stagno</a><br />
-						    	    		<span class="small">Security Advisor</span>
-						    	    	</div><!-- .speaker-desc -->
-									</li>
-									<li>
-										<a href="schedule.html#AndreaNegro"><img src="images/speakers/andrea_negro.jpg" alt="Andrea Negro" width="150" height="150" /></a>
-										<div class="speaker-desc">
-						    	    		<a href="schedule.html#AndreaNegro">Andrea Negro</a><br />
-						    	    		<span class="small">Software Engineer</span>
-						    	    	</div><!-- .speaker-desc -->
-									</li>
-								</ul>
-							</div><!-- .flexslider -->
-						</div><!-- #speakers -->
-					</div><!-- .container-box.inner -->	
-				</div><!-- .container-box -->
-				<div class="box-bottom bottom-full"></div>
-			</div>
-		</div><!-- #speakers-wraper -->
-	
-		<div class="eight columns">
-			<div class="container-box">
-				<div class="container-box-inner">
-					<h2 class="heading"><span>Il Linux Day Torino 2013...</span></h2>
-						<ul class="check">
-							<li>5 aule semi-tematiche</li>
-							<li><a href="schedule.html">20 talk di ogni tipo</a>: dalle nozioni base di Linux agli approfondimenti tecnici pi&ugrave; avanzati</li>
-							<li>Linux Install Party: porta il tuo PC, all'installazione pensiamo noi</li>
-							<li>40 volontari tra relatori, assistenti e tecnici a tua disposizione</li>
-							<li>Centinaia di visitatori ogni anno</li>
-							<li>Bonus: la <a target="_blank" href="https://plus.google.com/u/1/104526335641251202320/posts">Google Developers Group DevFest</a> dall'altra parte del corridoio!</li>
-						</ul>
-				</div><!-- .container-box-inner -->
-			</div><!-- .container-box -->
-			<div class="box-bottom bottom-main"></div>
-		</div><!-- .eight -->
-		
-		<div class="four columns">
-			<div class="container-box">
-				<div class="container-box-inner">
-					<h2 class="heading"><span>News</span></h2>
-						<p>Segui <a href="http://linuxdayto.wordpress.com/">il nostro blog</a> per aggiornamenti dell'ultim'ora!</p>
+<div class="container container-twelve">
 
-						<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Flinuxdayto.wordpress.com%2Ffeed%2F&num=5&date=y&targ=y&utf=y&html=p"  charset="UTF-8" type="text/javascript"></script>
+    {% include countdown.html %}
 
-						<noscript>
-						<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Flinuxdayto.wordpress.com%2Ffeed%2F&num=5&date=y&targ=y&utf=y&html=y">View RSS feed</a>
-						</noscript>
-				</div><!-- .container-box-inner -->
-			</div><!-- .container-box -->
-			<div class="box-bottom bottom-sidebar"></div>
-		</div><!-- .four -->
-		
-	</div><!-- container -->
-	
-	<div id="sponsors" class="container container-twelve">
-		<h2 class="heading-bg-less center">Con il supporto di:</h2>
-		<div class="three columns">
-			<a href="http://www.linuxday.it/"><img src="images/sponsor-1.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-		<div class="three columns">
-			<a href="http://open.polito.it/"><img src="images/sponsor-2.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-		<div class="three columns">
-			<a href="http://netstudent.polito.it/"><img src="images/sponsor-3.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-		<div class="three columns">
-			<a href="http://isf.polito.it/"><img src="images/sponsor-4.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-	</div><!-- .container -->
+    <div id="speakers-wraper" class="container container-twelve">
+        <div class="twelve columns">
+            <div class=" container-box">
+                <div class="container-box-inner">
+                    <h2 class="heading center"><span>Gli speaker</span></h2>
+                    <div id="speakers">
+                        <div id="carousel" class="flexslider">
+                            <ul class="slides">
+                            {% jsonball speakers from file speakers.json %}
+                            {% for speaker in speakers %}
+                                <li>
+                                    <a href="schedule.html#{{ speaker.id }}"><img src="images/speakers/{{ speaker.img }}" alt="{{ speaker.name }}" width="150" height="150" /></a>
+                                    <div class="speaker-desc">
+                                        <a href="schedule.html#{{ speaker.id }}">{{ speaker.name }}</a><br />
+                                        <span class="small">{{ speaker.title }}</span>
+                                    </div><!-- .speaker-desc -->
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        </div><!-- .flexslider -->
+                    </div><!-- #speakers -->
+                </div><!-- .container-box.inner -->
+            </div><!-- .container-box -->
+            <div class="box-bottom bottom-full"></div>
+        </div>
+    </div><!-- #speakers-wraper -->
 
-	<div id="footer-wraper">
-		<div id="footer-bottom-wraper">
-			<div id="footer-bottom" class="container container-twelve">
-				<div id="footer-info" class="six columns">
-					<span>&copy; 2012 Orcur. Powered by HTML5/CSS3<br />
-					Orcur Theme by Rene Merino</span>
-				</div><!-- #footer-info -->
-				<div id="social" class="six columns">
-		    		<ul>
-		    			<li>Ci trovi su:</li>
-		    			<li class="twitter"><a href="https://twitter.com/linuxdayitalia">Twitter</a></li>
-		    			<li class="facebook"><a href="https://www.facebook.com/LinuxDayTorino">Facebook</a></li>
-		    			<li class="youtube"><a href="http://www.youtube.com/user/LinuxDayTorino">Youtube</a></li>
-		    		</ul>
-		    	</div><!-- end #social -->
-			</div><!-- .container -->
-		</div><!-- #footer-bottom-wraper -->
-	</div><!-- #footer-wraper -->
+    <div class="eight columns">
+        <div class="container-box">
+            <div class="container-box-inner">
+                <h2 class="heading"><span>Il Linux Day Torino 2013...</span></h2>
+                <ul class="check">
+                    <li>5 aule semi-tematiche</li>
+                    <li><a href="schedule.html">20 talk di ogni tipo</a>: dalle nozioni base di Linux agli approfondimenti tecnici pi&ugrave; avanzati</li>
+                    <li>Linux Install Party: porta il tuo PC, all'installazione pensiamo noi</li>
+                    <li>40 volontari tra relatori, assistenti e tecnici a tua disposizione</li>
+                    <li>Centinaia di visitatori ogni anno</li>
+                    <li>Bonus: la <a target="_blank" href="https://plus.google.com/u/1/104526335641251202320/posts">Google Developers Group DevFest</a> dall'altra parte del corridoio!</li>
+                </ul>
+            </div><!-- .container-box-inner -->
+        </div><!-- .container-box -->
+        <div class="box-bottom bottom-main"></div>
+    </div><!-- .eight -->
 
+    <div class="four columns">
+        <div class="container-box">
+            <div class="container-box-inner">
+                <h2 class="heading"><span>News</span></h2>
+                <p>Segui <a href="http://linuxdayto.wordpress.com/">il nostro blog</a> per aggiornamenti dell'ultim'ora!</p>
 
+                <script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Flinuxdayto.wordpress.com%2Ffeed%2F&num=5&date=y&targ=y&utf=y&html=p"  charset="UTF-8" type="text/javascript"></script>
 
-	<!-- JavaScript
-	================================================== -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	
-	<!-- All Scripts -->
-	<script type="text/javascript" src="js/scripts.js"></script>
-	<!-- jQuery Countdown -->
-	<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-	<script type="text/javascript" src="js/jquery.countdown-it.js"></script>
-	<!-- Easing plugin -->
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<!-- FlexSlider -->
-	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-	<!-- prettyPhoto -->
-	<script src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
-	<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css" media="screen" />
-	
-	<script>
-	
-	$(window).load(function() {
-	
-		/* Carousel */
-		$('#carousel').flexslider({
-			animation: "slide",
-			animationLoop: true,
-			itemWidth: 150,
-			itemMargin: 50,
-			controlNav: false,
-			slideshowSpeed: 5000,          
-			animationSpeed: 600
-		});
-	
-		$('.flexslider').flexslider({
-			namespace: "flex-",             //{NEW} String: Prefix string attached to the class of every element generated by the plugin
-			selector: ".slides > li",       //{NEW} Selector: Must match a simple pattern. '{container} > {slide}' -- Ignore pattern at your own peril
-			animation: "slide",              //String: Select your animation type, "fade" or "slide"
-			easing: "swing",               //{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!
-			direction: "horizontal",        //String: Select the sliding direction, "horizontal" or "vertical"
-			reverse: false,                 //{NEW} Boolean: Reverse the animation direction
-			animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
-			smoothHeight: false,            //{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode
-			startAt: 0,                     //Integer: The slide that the slider should start on. Array notation (0 = first slide)
-			slideshow: true,                //Boolean: Animate slider automatically
-			slideshowSpeed: 7000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
-			animationSpeed: 600,            //Integer: Set the speed of animations, in milliseconds
-			initDelay: 0,                   //{NEW} Integer: Set an initialization delay, in milliseconds
-			randomize: false,               //Boolean: Randomize slide order
-			 
-			// Usability features
-			pauseOnAction: true,            //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
-			pauseOnHover: false,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
-			useCSS: true,                   //{NEW} Boolean: Slider will use CSS3 transitions if available
-			touch: true,                    //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
-			video: false,                   //{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches
-			 
-			// Primary Controls
-			controlNav: true,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
-			directionNav: true,             //Boolean: Create navigation for previous/next navigation? (true/false)
-			prevText: "Previous",           //String: Set the text for the "previous" directionNav item
-			nextText: "Next",               //String: Set the text for the "next" directionNav item
-			 
-			// Secondary Navigation
-			keyboard: true,                 //Boolean: Allow slider navigating via keyboard left/right keys
-			multipleKeyboard: false,        //{NEW} Boolean: Allow keyboard navigation to affect multiple sliders. Default behavior cuts out keyboard navigation with more than one slider present.
-			mousewheel: false,              //{UPDATED} Boolean: Requires jquery.mousewheel.js (https://github.com/brandonaaron/jquery-mousewheel) - Allows slider navigating via mousewheel
-			pausePlay: false,               //Boolean: Create pause/play dynamic element
-			pauseText: 'Pause',             //String: Set the text for the "pause" pausePlay item
-			playText: 'Play',               //String: Set the text for the "play" pausePlay item
-			 
-			// Special properties
-			controlsContainer: "",          //{UPDATED} Selector: USE CLASS SELECTOR. Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be ".flexslider-container". Property is ignored if given element is not found.
-			manualControls: "",             //Selector: Declare custom control navigation. Examples would be ".flex-control-nav li" or "#tabs-nav li img", etc. The number of elements in your controlNav should match the number of slides/tabs.
-			sync: "",                       //{NEW} Selector: Mirror the actions performed on this slider with another slider. Use with care.
-			asNavFor: "",                   //{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider
-			 
-			// Carousel Options
-			itemWidth: 0,                   //{NEW} Integer: Box-model width of individual carousel items, including horizontal borders and padding.
-			itemMargin: 0,                  //{NEW} Integer: Margin between carousel items.
-			minItems: 0,                    //{NEW} Integer: Minimum number of carousel items that should be visible. Items will resize fluidly when below this.
-			maxItems: 0,                    //{NEW} Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.
-			move: 0,                        //{NEW} Integer: Number of carousel items that should move on animation. If 0, slider will move all visible items.
-			 
-			// Callback API
-			start: function(){},            //Callback: function(slider) - Fires when the slider loads the first slide
-			before: function(){},           //Callback: function(slider) - Fires asynchronously with each slider animation
-			after: function(){},            //Callback: function(slider) - Fires after each slider animation completes
-			end: function(){},              //Callback: function(slider) - Fires when the slider reaches the last slide (asynchronous)
-			added: function(){},            //{NEW} Callback: function(slider) - Fires after a slide is added
-			removed: function(){} 
-		});
-	});
-	</script>
-	
-</body>
-</html>
+                <noscript>
+                    <a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Flinuxdayto.wordpress.com%2Ffeed%2F&num=5&date=y&targ=y&utf=y&html=y">View RSS feed</a>
+                </noscript>
+            </div><!-- .container-box-inner -->
+        </div><!-- .container-box -->
+        <div class="box-bottom bottom-sidebar"></div>
+    </div><!-- .four -->
+
+</div><!-- container -->

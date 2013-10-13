@@ -1,357 +1,216 @@
-<!doctype html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
+---
+layout: default
+---
 
-	<!-- Basic Page Needs
-  ================================================== -->
-	<title>Linux Day Torino 2013: Programma</title>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-		<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
-	
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="css/orange/base.css" />
-	<link rel="stylesheet" href="css/orange/layout.css" />
-	<link rel="stylesheet" href="css/skeleton.min.css" />
-	<link rel="stylesheet" href="css/jquery.countdown.css" />
-	
-	<noscript>
-			<link rel="stylesheet" href="css/noscript.css" />
-	</noscript>
-	
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico" />
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
-	
-</head>
-<body>
-	
-	<div id="headWraper">
-		<header class="container container-twelve">
-			<div id="logo" class="five columns">
-				<a href="index.html"><img src="images/logo.png" alt="logo" /></a>
-				<a href="#" id="mobile-menu"><img src="images/menu-mobile.png" alt="menu-mobile" width="38" height="25" /></a>
-				<div id="mobileNav">
-					<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">Info</a>
-						<ul>
-							<li><a href="about.html">FAQ</a></li>
-							<li><a href="venue.html">Location</a></li>
-						</ul>
-					</li>
-					<li><a href="schedule.html">Programma</a></li>
-				</ul>
-				</div><!-- #mobileNav -->
-			</div><!-- #logo -->
-			<nav id="mainNav" class="seven columns">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">Info</a>
-						<ul>
-							<li><a href="about.html">FAQ</a></li>
-							<li><a href="venue.html">Location</a></li>
-						</ul>
-					</li>
-					<li><a href="schedule.html">Programma</a></li>
-				</ul>
-			</nav><!-- .mainNav -->
-		</header>
-	</div><!-- #headWraper -->
+    <div id="page" class="container container-twelve clearfix">
 
-	<div id="page" class="container container-twelve clearfix">
+        {% include countdown.html %}
 
-        <div id="counter-container" class="twelve columns container-box">
-            <div class="seven columns alpha">
-                <div class="container-box-inner em-large">
-                    <p>20 speaker per 20 conferenze, semplici e avanzate. E quest'anno siamo al Poli!</p>
-                </div>
+        <div class="twelve columns">
+        <div class="container-box">
+        <div class="container-box-inner">
+
+            <h1 class="heading"><span>Programma</span></h1>
+
+            <div class="em-medium">
+                <p>Il Linux Day Torino apre alle 14 e si conclude alle 18</p>
+                <p><img width="100%" height="100%" src="images/planimetria.png"/></p>
             </div>
-            <div class="five columns omega">
-                <div class="container-box-inner">
-                    <div class="counter">
-                    </div><!-- #counter -->
-                    <div class="buy-tickets">
-                        <a href="#" onclick="javascript:return false;">26 Ottobre 2013</a>
-                    </div>
-                </div>
-            </div>
+
+            <div class="lineDivider"></div>
+
+            <table>
+                <thead>
+                <tr>
+                    <th class="first" width="10%"></th>
+                    <th width="18%">Base</th>
+                    <th width="18%">Medium</th>
+                    <th width="18%">Advanced</th>
+                    <th width="18%">Sikurezza</th>
+                    <th width="18%">Cloud</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td class="first">14:00</td>
+                    <td>Primi Passi con Linux</td>
+                    <td>Fotografia Digitale</td>
+                    <td></td>
+                    <td>MITM e webapp</td>
+                    <td>Privacy ed Anonimato su Internet</td>
+
+                </tr>
+                <tr>
+                    <td class="first">15:00</td>
+                    <td>Installiamo insieme Debian</td>
+                    <td>Il Terminale per Tutti</td>
+                    <td>Asterisk: centralino VoIP FLOSS</td>
+                    <td>Quando il nuovo rende insicure le VPN</td>
+                    <td>MeteorJS & webapp in Realtime</td>
+                </tr>
+                <tr>
+                    <td class="first">16:00</td>
+                    <td>Come &egrave; strutturato un Sistema GNU/Linux</td>
+                    <td>Arduino Y&uacute;n</td>
+                    <td>Zabbix: Monitoring is Possible</td>
+                    <td>Mifare Ultralight: Istruzioni per l'Uso</td>
+                    <td>I Database non Relazionali</td>
+                </tr>
+                <tr>
+                    <td class="first">17:00</td>
+                    <td>Corsi Online per Insegnanti</td>
+                    <td>"Quante ne sai?"</td>
+                    <td>Fastboot in Sistemi Embedded</td>
+                    <td>Penetration Test con Kali Linux</td>
+                    <td>Plone CMS &amp; Ploomcake</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <div class="lineDivider"></div>
+
+            <div class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Primi passi con Linux</h2>
+                <span class="small event-place">Aula Base</span> <span class="small event-speaker">Marco Dorigo</span> <span class="userIcons"><a class="topWeb" href="http://informaticalibera.info"></a></span>
+                <p>Ci siamo lasciati convincere dall'immancabile amico smanettone e finalmente abbiamo installato Linux. Subito cominciano le cattive notizie: &egrave; diverso da Windows! Ma dove sono i nostri programmi? Perch&egrave; xyz.exe non si installa? Come si installa nuovo software? E se non funzionano le periferiche? Come si fa ad "andare su Internet"? Introduzione alla sopravvivenza in ambienti (operativi) ostili.</p>
+            </div><!-- .event-wraper -->
+
+            <div class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Installiamo insieme Debian</h2>
+                <span class="small event-place">Aula Base</span> <span class="small event-speaker">Guido Audino</span> <span class="userIcons"><a class="topWeb" href="http://www.mag4.it/chisiamo/struttura/309-rete-computer.html"></a></span>
+                <p>Installazione dal vivo di Debian Live 7.0 LXDE, utile per verificare la compatibilit&agrave; dell'hardware, adatta a computer nuovi o un po' datati, facile da mantenere aggiornata: insomma un ottimo esempio di Software libero!</p>
+            </div><!-- .event-wraper -->
+
+            <div id="MassimoNuvoli" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Come &egrave; strutturato un Sistema GNU/Linux</h2>
+                <span class="small event-place">Aula Base</span> <span class="small event-speaker">Massimo Nuvoli</span> <span class="userIcons"><a class="topMail" href="mailto:maxnuv@gmail.com"></a></span>
+                <p>Conoscere come &egrave; fatto GNU/Linux potrebbe esservi utile per non fare errori durante l'installazione, o  banalmente per sfruttarlo meglio.<br/>
+                    Vediamo di capire semplicemente come &egrave; fatto, seguendolo dall'accensione al lancio di una applicazione in ambiente grafico.<br/>
+                    Cercheremo anche di dare risposte a domande come "32 o 64 bit?" o "metto tutto in una partizione?" e altre che emergeranno durante la conversazione. </p>
+            </div><!-- .event-wraper -->
+
+            <div id="MarcoBodrato" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Corsi Online per Insegnanti</h2>
+                <span class="small event-place">Aula Base</span> <span class="small event-speaker">Marco Bodrato</span>
+                <p>Breve storia del percorso che dalla legge regionale sul SL ha
+                    portato alla piattaforma teachmood.it e alla realizzazione di corsi per i
+                    docenti su diversi software liberi utilizzabili nella didattica.
+                    Presentazione della piattaforma e dei corsi.</p>
+            </div><!-- .event-wraper -->
+
+            <div class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Fotografia Digitale</h2>
+                <span class="small event-place">Aula Medium</span> <span class="small event-speaker">Giorgio Ferrero</span>
+                <p>Panoramiche a 360 gradi con utilizzo del programma Hugin Panorama photo stitcher e Gimp per ritocco finale del cielo blu ed esportazione in jpeg compresso. Utilizzo di fotocamera digitale non reflex con obiettivi intercambiabili, utilizzo di vecchi obiettivi (di 40 anni fa) a focale fissa (non zoom), esposizione manuale e messa a fuoco manuale (fatta una sola volta per tutte le foto), uso del cavalletto, filo telecomando per scatti antivibrazioni.</p>
+            </div><!-- .event-wraper -->
+
+            <div id="Cheip" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Il terminale per tutti</h2>
+                <span class="small event-place">Aula Medium</span> <span class="small event-speaker">"Cheip"</span> <span class="userIcons"><a class="topTwitter" href="http://twitter.com/followCheip"></a></span>
+                <p>Un talk per "assaggiare" la potenza del terminale, farvi venire la voglia di utilizzare questo strumento nella vita quotidiana e consigliarvi qualche trucchetto.</p>
+            </div><!-- .event-wraper -->
+
+            <div class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">"Quante ne sai?"</h2>
+                <span class="small event-place">Aula Medium</span> <span class="small event-speaker">"IronBishop"</span> <span class="userIcons"><a class="topWeb" href="http://fsfe.org/fellowship/"></a></span> <span class="small event-speaker">"Abacus"</span> <span class="userIcons"><a class="topWeb" href="http://isoardi.info/"></a></span>
+                <p>Torna a grande richiesta il talk interattivo tra hacking e fooling: "premi la patata" e rispondi alle domande! Quante SLOC ci sono in Debian? Kryptonite &egrave; un manuale di ...? Qual &egrave; la nave pi&ugrave; veloce della galassia? Ispirato senza ritegno ai blasonati contest della costa ovest: un'oretta di svago tra nozioni tecniche, meno tecniche e decisamente bizzarre. Ricchi premi e cotillons. Con il supporto di: Raspberry Pi, node.js e gli immancabili, celeberrimi biscotti.</p>
+            </div><!-- .event-wraper -->
+
+            <div id="MarcoZanasso" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Asterisk: centralino VoIP FLOSS</h2>
+                <span class="small event-place">Aula Advanced</span> <span class="small event-speaker">Marco Zanasso</span> <span class="userIcons"><a class="topWeb" href="http://www.itfor.it/"></a><a class="topMail" href="mailto:marco.zanasso@itfor.it"></a></span>
+                <p>Configurazione di un centralino telefonico (PBX) basato su  Asterisk comprensivo di periferiche (telefoni VoIP, PortAdapter analogici, GSMbox, ecc.)</p>
+            </div><!-- .event-wraper -->
+
+            <div id="FedericoFissore" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Arduino Y&uacute;n</h2>
+                <span class="small event-place">Aula Advanced</span> <span class="small event-speaker">Federico Fissore</span>
+                <p>Introduzione ad Arduino Y&uacute;n, la prima scheda Arduino dotata di un processore dedicato a Linux che affianca e potenzia le capacit&agrave; del microcontrollore.</p>
+            </div><!-- .event-wraper -->
+
+            <div id="DimitriBellini" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Zabbix: Monitoring is possible</h2>
+                <span class="small event-place">Aula Advanced</span> <span class="small event-speaker">Dimitri Bellini</span> <span class="userIcons"><a class="topWeb" href="http://www.quadrata.it/"></a><a class="topMail" href="mailto:dimitri.bellini@quadrata.it"></a></span>
+                <p>Introduzione a Zabbix, soluzione di Monitoring Opensource adattabile a varie realta', dal privato all'Enterprise. Concetti, caratteristiche di base e scenari di utilizzo.</p>
+            </div><!-- .event-wraper -->
+
+            <div id="PaoloDoz" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Fastboot in sistemi embedded</h2>
+                <span class="small event-place">Aula Advanced</span> <span class="small event-speaker">Paolo Doz</span> <span class="userIcons"><a class="topWeb" href="http://www.abinsula.com/"></a><a class="topMail" href="mailto:paolo.doz@abinsula.com"></a></span> <span class="small event-speaker">Ilario Pittau</span> <span class="userIcons"><a class="topWeb" href="http://www.abinsula.com/"></a><a class="topMail" href="mailto:ilario.pittau@abinsula.com"></a></span>
+                <p>Il talk ha l’obiettivo di introdurre le tecniche utilizzate per ottimizzare la sequenza di startup di un sistema embedded. Si partir&agrave; con la descrizione del bootloader (u-boot), passando per la configurazione del kernel e infine descrivendo la gestione dell’avvio di servizi in user space (systemd).</p>
+            </div><!-- .event-wraper -->
+
+            <div class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">MITM e webapp</h2>
+                <span class="small event-place">Aula Sikurezza</span> <span class="small event-speaker">Giulio</span>
+                <p>Partendo da concetti di base come ARP ed SSL si parler&agrave; di tecniche di MITM in relazione con le tecnologie web con dimostrazioni pratiche e suggerimenti sia per la sicurezza personale sia che per quella della propria infrastruttura.</p>
+            </div><!-- .event-wraper -->
+
+            <div id="KeivanMotavalli" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Quando il nuovo rende insicure le VPN</h2>
+                <span class="small event-place">Aula Sikurezza</span> <span class="small event-speaker">Keivan Motavalli</span>
+                <p>Sfruttando il poco conosciuto IPv6 si pu&ograve; creare una condizione di rete per la quale il traffico, normalmente diretto su una vpn sicura, viene deviato verso un proxy dell'attaccante.</p>
+            </div><!-- .event-wraper -->
+
+            <div id="BughardyEagle" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Mifare Ultralight: Istruzioni per l'Uso</h2>
+                <span class="small event-place">Aula Sikurezza</span> <span class="small event-speaker">"Bughardy" e "Eagle"</span>
+                <p>Uno degli utilizzi più comuni dei chip NFC riguarda i sistemi di trasporto pubblico, in cui spesso si può riscontrare una scorretta implementazione del protocollo Mifare Ultralight. Essendo sprovvisto di un sistema di cifratura hardware, è semplice interagire con il chip e accedere ai dati memorizzati sullo stesso. La nostra ricerca si prefigge di illustrare a tutti le caratteristiche di un biglietto NFC Mifare Ultralight ed evidenziare l’utilizzo adeguato dei bytes del settore "OTP".</p>
+            </div><!-- .event-wraper -->
+
+            <div id="PaoloStagno" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Penetration Test con Kali Linux</h2>
+                <span class="small event-place">Aula Sikurezza</span> <span class="small event-speaker">Paolo Stagno</span>
+                <p>Il crescente trend dei cyber attacchi pone a chiunque lavori nel campo IT alcuni importanti quesiti: Quali sono le armi che vengono usate? Siamo pronti? Per rispondere, parleremo di Kali Linux: distribuzione pensata per la sicurezza informatica e i suoi strumenti, che possono identificare una vulnerabilità o compromettere un sitema.  Il talk si snoderà affrontando alcuni aspetti di un attacco informatico, concludendo infine con alcune possibili contromisure.</p>
+            </div><!-- .event-wraper -->
+
+            <div id="DavideMainardi" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Privacy ed anonimato su Internet</h2>
+                <span class="small event-place">Aula Cloud</span> <span class="small event-speaker">Davide Mainardi</span>
+                <p>Il talk si prefigge di illustrare il modo in cui le nostre informazioni personali viaggino in rete: il tracking, il filter-bubbling dei motori di ricerca ed il caso PRISM. Successivamente si presenteranno tecniche e software open-source per navigare al sicuro da ogni tracciabilit&agrave; ed eventualmente in anonimato.</p>
+            </div><!-- .event-wraper -->
+
+            <div id="LuigiMaselli" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">MeteorJS & webapp in Realtime</h2>
+                <span class="small event-place">Aula Cloud</span> <span class="small event-speaker">Luigi Maselli</span> <span class="userIcons"><a class="topTwitter" href="http://twitter.com/grigi0"></a></span>
+                <p>Le applicazioni web per essere reattive e sicure devono fare controlli sia lato client che lato server, questo comporta duplicazione di codice e spesso l'utilizzo di diversi linguaggi di programmazione. MeteorJS, basato su NodeJS, offre un ambiente unico per poter programmare in javascript codice che potr&agrave; girare indifferentemente sul browser o sul server o su entrambi.</p>
+            </div><!-- .event-wraper -->
+
+            <div id="AndreaNegro" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">I Database non Relazionali</h2>
+                <span class="small event-place">Aula Cloud</span> <span class="small event-speaker">Andrea Negro</span>
+                <p>I database non relazionali, pur non essendo una novità assoluta, hanno registrato una crescita esponenziale nel loro sviluppo e utilizzo negli ultimi anni grazie al sempre più crescente bisogno di scalare in orizzontale, dove i classici RDBMS (database relazionali) presentano diverse limitazioni. I giganti del web, che si trovano a dover gestire database di dimensioni veramente imponenti, hanno sviluppato (o contribuito allo sviluppo) vari NRDBMS (database non relazionali).</p>
+            </div><!-- .event-wraper -->
+
+            <div id="AndreaDEste" class="event-wraper">
+                <h3 class="event-date">&nbsp;</h3>
+                <h2 class="event-title">Plone CMS & Ploomcake</h2>
+                <span class="small event-place">Aula Cloud</span> <span class="small event-speaker">Andrea D'Este</span> <span class="userIcons"><a class="topWeb" href="http://redomino.com/"></a><a class="topTwitter" href="http://twitter.com/ade_eddie"></a></span>
+                <p>Plone &egrave; un gestore di contenuti open source sviluppato in Python. Il suo punto di forza &egrave; la flessibilit&agrave;. Con Plone si possono creare siti web, cataloghi prodotti, intranet, gestori documentali, gestori di progetti. Vediamo insieme alcuni esempi da fare in 10 minuti partendo da Ploomcake, una distribuzione Plone.</p>
+            </div><!-- .event-wraper -->
+
+        </div><!-- .container-box-inner -->
+        </div><!-- .container-box -->
+        <div class="box-bottom bottom-full"></div>
         </div><!-- .twelve -->
-		<div class="clear"></div>
-		<div class="box-bottom bottom-full"></div>
-		
-		<div class="twelve columns">
-			<div class="container-box">
-				<div class="container-box-inner">
-				
-					<h1 class="heading"><span>Programma</span></h1>
-						
-						<div class="em-medium">
-							<p>Il Linux Day Torino apre alle 14 e si conclude alle 18</p>
-							<p><img width="100%" height="100%" src="images/planimetria.png"/></p>
-						</div>
-						
-						<div class="lineDivider"></div>
 
-						<table>
-							<thead>
-								<tr>
-									<th class="first" width="10%"></th>
-									<th width="18%">Base</th>
-									<th width="18%">Medium</th>
-									<th width="18%">Advanced</th>
-									<th width="18%">Sikurezza</th>
-									<th width="18%">Cloud</th>
-								</tr>
-							</thead>
-
-							<tbody>
-								<tr>
-									<td class="first">14:00</td>
-									<td>Primi Passi con Linux</td>
-									<td>Fotografia Digitale</td>
-									<td></td>
-									<td>MITM e webapp</td>
-									<td>Privacy ed Anonimato su Internet</td>
-
-								</tr>
-								<tr>
-									<td class="first">15:00</td>
-									<td>Installiamo insieme Debian</td>
-									<td>Il Terminale per Tutti</td>
-									<td>Asterisk: centralino VoIP FLOSS</td>
-									<td>Quando il nuovo rende insicure le VPN</td>
-									<td>MeteorJS & webapp in Realtime</td>
-								</tr>
-								<tr>
-									<td class="first">16:00</td>
-									<td>Come &egrave; strutturato un Sistema GNU/Linux</td>
-									<td>Arduino Y&uacute;n</td>
-									<td>Zabbix: Monitoring is Possible</td>
-									<td>Mifare Ultralight: Istruzioni per l'Uso</td>
-									<td>I Database non Relazionali</td>
-								</tr>
-								<tr>
-									<td class="first">17:00</td>
-									<td>Corsi Online per Insegnanti</td>
-									<td>"Quante ne sai?"</td>
-									<td>Fastboot in Sistemi Embedded</td>
-									<td>Penetration Test con Kali Linux</td>
-									<td>Plone CMS &amp; Ploomcake</td>
-								</tr>
-							</tbody>
-						</table>
-
-						<div class="lineDivider"></div>
-						
-						<div class="event-wraper">
-							<h3 class="event-date">&nbsp;</h3>
-							<h2 class="event-title">Primi passi con Linux</h2>
-							<span class="small event-place">Aula Base</span> <span class="small event-speaker">Marco Dorigo</span> <span class="userIcons"><a class="topWeb" href="http://informaticalibera.info"></a></span>
-							<p>Ci siamo lasciati convincere dall'immancabile amico smanettone e finalmente abbiamo installato Linux. Subito cominciano le cattive notizie: &egrave; diverso da Windows! Ma dove sono i nostri programmi? Perch&egrave; xyz.exe non si installa? Come si installa nuovo software? E se non funzionano le periferiche? Come si fa ad "andare su Internet"? Introduzione alla sopravvivenza in ambienti (operativi) ostili.</p>
-						</div><!-- .event-wraper -->
-
-                        <div class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Installiamo insieme Debian</h2>
-                            <span class="small event-place">Aula Base</span> <span class="small event-speaker">Guido Audino</span> <span class="userIcons"><a class="topWeb" href="http://www.mag4.it/chisiamo/struttura/309-rete-computer.html"></a></span>
-                            <p>Installazione dal vivo di Debian Live 7.0 LXDE, utile per verificare la compatibilit&agrave; dell'hardware, adatta a computer nuovi o un po' datati, facile da mantenere aggiornata: insomma un ottimo esempio di Software libero!</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="MassimoNuvoli" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Come &egrave; strutturato un Sistema GNU/Linux</h2>
-                            <span class="small event-place">Aula Base</span> <span class="small event-speaker">Massimo Nuvoli</span> <span class="userIcons"><a class="topMail" href="mailto:maxnuv@gmail.com"></a></span>
-                            <p>Conoscere come &egrave; fatto GNU/Linux potrebbe esservi utile per non fare errori durante l'installazione, o  banalmente per sfruttarlo meglio.<br/>
-                            Vediamo di capire semplicemente come &egrave; fatto, seguendolo dall'accensione al lancio di una applicazione in ambiente grafico.<br/>
-                            Cercheremo anche di dare risposte a domande come "32 o 64 bit?" o "metto tutto in una partizione?" e altre che emergeranno durante la conversazione. </p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="MarcoBodrato" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Corsi Online per Insegnanti</h2>
-                            <span class="small event-place">Aula Base</span> <span class="small event-speaker">Marco Bodrato</span>
-                            <p>Breve storia del percorso che dalla legge regionale sul SL ha
-                                portato alla piattaforma teachmood.it e alla realizzazione di corsi per i
-                                docenti su diversi software liberi utilizzabili nella didattica.
-                                Presentazione della piattaforma e dei corsi.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Fotografia Digitale</h2>
-                            <span class="small event-place">Aula Medium</span> <span class="small event-speaker">Giorgio Ferrero</span>
-                            <p>Panoramiche a 360 gradi con utilizzo del programma Hugin Panorama photo stitcher e Gimp per ritocco finale del cielo blu ed esportazione in jpeg compresso. Utilizzo di fotocamera digitale non reflex con obiettivi intercambiabili, utilizzo di vecchi obiettivi (di 40 anni fa) a focale fissa (non zoom), esposizione manuale e messa a fuoco manuale (fatta una sola volta per tutte le foto), uso del cavalletto, filo telecomando per scatti antivibrazioni.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="Cheip" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Il terminale per tutti</h2>
-                            <span class="small event-place">Aula Medium</span> <span class="small event-speaker">"Cheip"</span> <span class="userIcons"><a class="topTwitter" href="http://twitter.com/followCheip"></a></span>
-                            <p>Un talk per "assaggiare" la potenza del terminale, farvi venire la voglia di utilizzare questo strumento nella vita quotidiana e consigliarvi qualche trucchetto.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">"Quante ne sai?"</h2>
-                            <span class="small event-place">Aula Medium</span> <span class="small event-speaker">"IronBishop"</span> <span class="userIcons"><a class="topWeb" href="http://fsfe.org/fellowship/"></a></span> <span class="small event-speaker">"Abacus"</span> <span class="userIcons"><a class="topWeb" href="http://isoardi.info/"></a></span>
-                            <p>Torna a grande richiesta il talk interattivo tra hacking e fooling: "premi la patata" e rispondi alle domande! Quante SLOC ci sono in Debian? Kryptonite &egrave; un manuale di ...? Qual &egrave; la nave pi&ugrave; veloce della galassia? Ispirato senza ritegno ai blasonati contest della costa ovest: un'oretta di svago tra nozioni tecniche, meno tecniche e decisamente bizzarre. Ricchi premi e cotillons. Con il supporto di: Raspberry Pi, node.js e gli immancabili, celeberrimi biscotti.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="MarcoZanasso" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Asterisk: centralino VoIP FLOSS</h2>
-                            <span class="small event-place">Aula Advanced</span> <span class="small event-speaker">Marco Zanasso</span> <span class="userIcons"><a class="topWeb" href="http://www.itfor.it/"></a><a class="topMail" href="mailto:marco.zanasso@itfor.it"></a></span>
-                            <p>Configurazione di un centralino telefonico (PBX) basato su  Asterisk comprensivo di periferiche (telefoni VoIP, PortAdapter analogici, GSMbox, ecc.)</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="FedericoFissore" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Arduino Y&uacute;n</h2>
-                            <span class="small event-place">Aula Advanced</span> <span class="small event-speaker">Federico Fissore</span>
-                            <p>Introduzione ad Arduino Y&uacute;n, la prima scheda Arduino dotata di un processore dedicato a Linux che affianca e potenzia le capacit&agrave; del microcontrollore.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="DimitriBellini" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Zabbix: Monitoring is possible</h2>
-                            <span class="small event-place">Aula Advanced</span> <span class="small event-speaker">Dimitri Bellini</span> <span class="userIcons"><a class="topWeb" href="http://www.quadrata.it/"></a><a class="topMail" href="mailto:dimitri.bellini@quadrata.it"></a></span>
-                            <p>Introduzione a Zabbix, soluzione di Monitoring Opensource adattabile a varie realta', dal privato all'Enterprise. Concetti, caratteristiche di base e scenari di utilizzo.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="PaoloDoz" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Fastboot in sistemi embedded</h2>
-                            <span class="small event-place">Aula Advanced</span> <span class="small event-speaker">Paolo Doz</span> <span class="userIcons"><a class="topWeb" href="http://www.abinsula.com/"></a><a class="topMail" href="mailto:paolo.doz@abinsula.com"></a></span> <span class="small event-speaker">Ilario Pittau</span> <span class="userIcons"><a class="topWeb" href="http://www.abinsula.com/"></a><a class="topMail" href="mailto:ilario.pittau@abinsula.com"></a></span>
-                            <p>Il talk ha l’obiettivo di introdurre le tecniche utilizzate per ottimizzare la sequenza di startup di un sistema embedded. Si partir&agrave; con la descrizione del bootloader (u-boot), passando per la configurazione del kernel e infine descrivendo la gestione dell’avvio di servizi in user space (systemd).</p>
-                        </div><!-- .event-wraper -->
-
-                        <div class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">MITM e webapp</h2>
-                            <span class="small event-place">Aula Sikurezza</span> <span class="small event-speaker">Giulio</span>
-                            <p>Partendo da concetti di base come ARP ed SSL si parler&agrave; di tecniche di MITM in relazione con le tecnologie web con dimostrazioni pratiche e suggerimenti sia per la sicurezza personale sia che per quella della propria infrastruttura.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="KeivanMotavalli" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Quando il nuovo rende insicure le VPN</h2>
-                            <span class="small event-place">Aula Sikurezza</span> <span class="small event-speaker">Keivan Motavalli</span>
-                            <p>Sfruttando il poco conosciuto IPv6 si pu&ograve; creare una condizione di rete per la quale il traffico, normalmente diretto su una vpn sicura, viene deviato verso un proxy dell'attaccante.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="BughardyEagle" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Mifare Ultralight: Istruzioni per l'Uso</h2>
-                            <span class="small event-place">Aula Sikurezza</span> <span class="small event-speaker">"Bughardy" e "Eagle"</span>
-                            <p>Uno degli utilizzi più comuni dei chip NFC riguarda i sistemi di trasporto pubblico, in cui spesso si può riscontrare una scorretta implementazione del protocollo Mifare Ultralight. Essendo sprovvisto di un sistema di cifratura hardware, è semplice interagire con il chip e accedere ai dati memorizzati sullo stesso. La nostra ricerca si prefigge di illustrare a tutti le caratteristiche di un biglietto NFC Mifare Ultralight ed evidenziare l’utilizzo adeguato dei bytes del settore "OTP".</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="PaoloStagno" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Penetration Test con Kali Linux</h2>
-                            <span class="small event-place">Aula Sikurezza</span> <span class="small event-speaker">Paolo Stagno</span>
-                            <p>Il crescente trend dei cyber attacchi pone a chiunque lavori nel campo IT alcuni importanti quesiti: Quali sono le armi che vengono usate? Siamo pronti? Per rispondere, parleremo di Kali Linux: distribuzione pensata per la sicurezza informatica e i suoi strumenti, che possono identificare una vulnerabilità o compromettere un sitema.  Il talk si snoderà affrontando alcuni aspetti di un attacco informatico, concludendo infine con alcune possibili contromisure.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="DavideMainardi" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Privacy ed anonimato su Internet</h2>
-                            <span class="small event-place">Aula Cloud</span> <span class="small event-speaker">Davide Mainardi</span>
-                            <p>Il talk si prefigge di illustrare il modo in cui le nostre informazioni personali viaggino in rete: il tracking, il filter-bubbling dei motori di ricerca ed il caso PRISM. Successivamente si presenteranno tecniche e software open-source per navigare al sicuro da ogni tracciabilit&agrave; ed eventualmente in anonimato.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="LuigiMaselli" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">MeteorJS & webapp in Realtime</h2>
-                            <span class="small event-place">Aula Cloud</span> <span class="small event-speaker">Luigi Maselli</span> <span class="userIcons"><a class="topTwitter" href="http://twitter.com/grigi0"></a></span>
-                            <p>Le applicazioni web per essere reattive e sicure devono fare controlli sia lato client che lato server, questo comporta duplicazione di codice e spesso l'utilizzo di diversi linguaggi di programmazione. MeteorJS, basato su NodeJS, offre un ambiente unico per poter programmare in javascript codice che potr&agrave; girare indifferentemente sul browser o sul server o su entrambi.</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="AndreaNegro" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">I Database non Relazionali</h2>
-                            <span class="small event-place">Aula Cloud</span> <span class="small event-speaker">Andrea Negro</span>
-                            <p>I database non relazionali, pur non essendo una novità assoluta, hanno registrato una crescita esponenziale nel loro sviluppo e utilizzo negli ultimi anni grazie al sempre più crescente bisogno di scalare in orizzontale, dove i classici RDBMS (database relazionali) presentano diverse limitazioni. I giganti del web, che si trovano a dover gestire database di dimensioni veramente imponenti, hanno sviluppato (o contribuito allo sviluppo) vari NRDBMS (database non relazionali).</p>
-                        </div><!-- .event-wraper -->
-
-                        <div id="AndreaDEste" class="event-wraper">
-                            <h3 class="event-date">&nbsp;</h3>
-                            <h2 class="event-title">Plone CMS & Ploomcake</h2>
-                            <span class="small event-place">Aula Cloud</span> <span class="small event-speaker">Andrea D'Este</span> <span class="userIcons"><a class="topWeb" href="http://redomino.com/"></a><a class="topTwitter" href="http://twitter.com/ade_eddie"></a></span>
-                            <p>Plone &egrave; un gestore di contenuti open source sviluppato in Python. Il suo punto di forza &egrave; la flessibilit&agrave;. Con Plone si possono creare siti web, cataloghi prodotti, intranet, gestori documentali, gestori di progetti. Vediamo insieme alcuni esempi da fare in 10 minuti partendo da Ploomcake, una distribuzione Plone.</p>
-                        </div><!-- .event-wraper -->
-
-				</div><!-- .container-box-inner -->
-			</div><!-- .container-box -->
-			<div class="box-bottom bottom-full"></div>
-		</div><!-- .twelve -->
-		
 	</div><!-- container -->
-	
-	<div id="sponsors" class="container container-twelve">
-		<h2 class="heading-bg-less center">Con il supporto di:</h2>
-		<div class="three columns">
-			<a href="http://www.linuxday.it/"><img src="images/sponsor-1.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-		<div class="three columns">
-			<a href="http://open.polito.it/"><img src="images/sponsor-2.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-		<div class="three columns">
-			<a href="http://netstudent.polito.it/"><img src="images/sponsor-3.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-		<div class="three columns">
-			<a href="http://isf.polito.it/"><img src="images/sponsor-4.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-	</div><!-- .container -->
-
-	<div id="footer-wraper">
-		<div id="footer-bottom-wraper">
-			<div id="footer-bottom" class="container container-twelve">
-				<div id="footer-info" class="six columns">
-					<span>&copy; 2012 Orcur. Powered by HTML5/CSS3<br />
-					Orcur Theme by Rene Merino</span>
-				</div><!-- #footer-info -->
-				<div id="social" class="six columns">
-		    		<ul>
-		    			<li>Ci trovi su:</li>
-		    			<li class="twitter"><a href="https://twitter.com/linuxdayitalia">Twitter</a></li>
-		    			<li class="facebook"><a href="https://www.facebook.com/LinuxDayTorino">Facebook</a></li>
-		    			<li class="youtube"><a href="http://www.youtube.com/user/LinuxDayTorino">Youtube</a></li>
-		    		</ul>
-		    	</div><!-- end #social -->
-			</div><!-- .container -->
-		</div><!-- #footer-bottom-wraper -->
-	</div><!-- #footer-wraper -->
-
-	<!-- JavaScript
-	================================================== -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	
-	<!-- All Scripts -->
-	<script type="text/javascript" src="js/scripts.js"></script>
-	<!-- jQuery Countdown -->
-	<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-	<!-- Easing plugin -->
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<!-- prettyPhoto -->
-	<script src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
-	<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css" media="screen" />
-
-	
-</body>
-</html>

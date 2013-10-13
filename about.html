@@ -1,182 +1,40 @@
-<!doctype html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
+---
+layout: default
+---
 
-	<!-- Basic Page Needs
-  ================================================== -->
-	<title>Linux Day Torino 2013: FAQ</title>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
-	
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="css/orange/base.css" />
-	<link rel="stylesheet" href="css/orange/layout.css" />
-	<link rel="stylesheet" href="css/skeleton.min.css" />
-	<link rel="stylesheet" href="css/jquery.countdown.css" />
-	
-	<noscript>
-			<link rel="stylesheet" href="css/noscript.css" />
-	</noscript>
-	
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico" />
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
-	
-</head>
-<body>
-	
-	<div id="headWraper">
-		<header class="container container-twelve">
-			<div id="logo" class="five columns">
-				<a href="index.html"><img src="images/logo.png" alt="logo" /></a>
-				<a href="#" id="mobile-menu"><img src="images/menu-mobile.png" alt="menu-mobile" width="38" height="25" /></a>
-				<div id="mobileNav">
-					<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">Info</a>
-						<ul>
-							<li><a href="about.html">FAQ</a></li>
-							<li><a href="venue.html">Location</a></li>
-						</ul>
-					</li>
-					<li><a href="schedule.html">Programma</a></li>
-				</ul>
-				</div><!-- #mobileNav -->
-			</div><!-- #logo -->
-			<nav id="mainNav" class="seven columns">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">Info</a>
-						<ul>
-							<li><a href="about.html">FAQ</a></li>
-							<li><a href="venue.html">Location</a></li>
-						</ul>
-					</li>
-					<li><a href="schedule.html">Programma</a></li>
-				</ul>
-			</nav><!-- .mainNav -->
-		</header>
-	</div><!-- #headWraper -->
+<div id="page" class="container container-twelve clearfix">
 
-	<div id="page" class="container container-twelve clearfix">
-	
-		<div id="counter-container" class="twelve columns container-box">
-			<div class="seven columns alpha">
-				<div class="container-box-inner em-large">
-					<p>20 speaker per 20 talk, semplici e avanzati. Quest'anno siamo al Poli!</p>
-				</div>
-			</div>
-			<div class="five columns omega">
-				<div class="container-box-inner">
-					<div class="counter">
-					</div><!-- #counter -->
-					<div class="buy-tickets">
-						<a href="schedule.html">26 Ottobre 2013</a>
-					</div>
-				</div>
-			</div>
-		</div><!-- .twelve -->
-		<div class="clear"></div>
-		<div class="box-bottom bottom-full"></div>
-		
-		<div class="twelve columns">
-			<div class="container-box">
-				<div class="container-box-inner">
-					<h2 class="center">Cos'&egrave; Linux</h2>
-					<p>Linux, o pi&ugrave; precisamente GNU/Linux, &egrave; un sistema operativo, ovvero quell'insieme di programmi essenziali per far funzionare il computer e farci qualcosa di utile o divertente. E' una alternativa a Windows e a MacOS, e pu&ograve; essere installato al loro posto (o insieme, sullo stesso computer).</p>
-					<p>Pi&ugrave; in generale Linux &egrave; il primo rappresentante del software cosiddetto "libero" ("freesoftware", in inglese), ovvero quel software che viene distribuito con una licenza che ne permette non solo l'utilizzo da parte di chiunque ed in qualsiasi circostanza ma anche la modifica, la copia e l'analisi.</p>
-					<p>Per ulteriori dettagli, visita il sito <a href="http://www.linux.it/">linux.it</a></p>
+    {% include countdown.html %}
 
-					<div class="dotDivider"></div>
+    <div class="twelve columns">
+        <div class="container-box">
+            <div class="container-box-inner">
+                <h2 class="center">Cos'&egrave; Linux</h2>
+                <p>Linux, o pi&ugrave; precisamente GNU/Linux, &egrave; un sistema operativo, ovvero quell'insieme di programmi essenziali per far funzionare il computer e farci qualcosa di utile o divertente. E' una alternativa a Windows e a MacOS, e pu&ograve; essere installato al loro posto (o insieme, sullo stesso computer).</p>
+                <p>Pi&ugrave; in generale Linux &egrave; il primo rappresentante del software cosiddetto "libero" ("freesoftware", in inglese), ovvero quel software che viene distribuito con una licenza che ne permette non solo l'utilizzo da parte di chiunque ed in qualsiasi circostanza ma anche la modifica, la copia e l'analisi.</p>
+                <p>Per ulteriori dettagli, visita il sito <a href="http://www.linux.it/">linux.it</a></p>
 
-					<h2 class="center">Cos'&egrave; il Linux Day</h2>
-					<p>Il <a href="http://www.linuxday.it/">Linux Day</a> &egrave; la pi&ugrave; grande manifestazione italiana per la promozione e la diffusione di Linux e del software libero. Nato nel 2001 e coordinato da <a href="http://www.ils.org/">Italian Linux Society</a>, consiste in una serie di eventi (pi&ugrave; di cento!) distribuiti su tutto il territorio nazionale e organizzati in modo indipendente dai gruppi locali di entusiasti ed appassionati.</p>
+                <div class="dotDivider"></div>
 
-					<div class="dotDivider"></div>
+                <h2 class="center">Cos'&egrave; il Linux Day</h2>
+                <p>Il <a href="http://www.linuxday.it/">Linux Day</a> &egrave; la pi&ugrave; grande manifestazione italiana per la promozione e la diffusione di Linux e del software libero. Nato nel 2001 e coordinato da <a href="http://www.ils.org/">Italian Linux Society</a>, consiste in una serie di eventi (pi&ugrave; di cento!) distribuiti su tutto il territorio nazionale e organizzati in modo indipendente dai gruppi locali di entusiasti ed appassionati.</p>
 
-					<h2 class="center">Chi Siamo</h2>
-					<p>Il Comitato Linux Day Torino &egrave; un collettivo informale, anarchico, entropico e destrutturato di persone ed associazioni che dal 2007 collaborano per l'organizzazione e l'allestimento dell'implementazione torinese del Linux Day. Il gruppo si coordina per mezzo di una <a href="http://linuxdaytorino.org/cgi-bin/mailman/listinfo/organizzazione">mailing list</a>, pubblica e aperta a tutti gli interessati.</p>
-					<p>Le passate edizioni del Linux Day Torino:</p>
-					<ul class="check">
-						<li><a href="http://linuxdaytorino.org/2012">2012 - Cortile del Maglio</a></li>
-						<li><a href="http://linuxdaytorino.org/2011">2011 - Cascina Roccafranca</a></li>
-						<li><a href="http://linuxdaytorino.org/2010">2010 - Cascina Roccafranca</a></li>
-						<li><a href="http://linuxdaytorino.org/2009">2009 - Cascina Roccafranca</a></li>
-						<li><a href="http://linuxdaytorino.org/2008">2008 - Cascina Roccafranca</a></li>
-						<li><a href="http://linuxdaytorino.org/2007">2007 - Cascina Roccafranca</a></li>
-					</ul>
-				</div><!-- .container-box-inner -->
-			</div><!-- .container-box -->
-			<div class="box-bottom bottom-full"></div>
-		</div><!-- .twelve -->
-		
-	</div><!-- container -->
-	
-	<div id="sponsors" class="container container-twelve">
-		<h2 class="heading-bg-less center">Con il supporto di:</h2>
-		<div class="three columns">
-			<a href="http://www.linuxday.it/"><img src="images/sponsor-1.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-		<div class="three columns">
-			<a href="http://open.polito.it/"><img src="images/sponsor-2.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-		<div class="three columns">
-			<a href="http://netstudent.polito.it/"><img src="images/sponsor-3.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-		<div class="three columns">
-			<a href="http://isf.polito.it/"><img src="images/sponsor-4.png" alt="sponsor-1" /></a>
-		</div><!-- .four -->
-	</div><!-- .container -->
+                <div class="dotDivider"></div>
 
-	<div id="footer-wraper">
-		<div id="footer-bottom-wraper">
-			<div id="footer-bottom" class="container container-twelve">
-				<div id="footer-info" class="six columns">
-					<span>&copy; 2012 Orcur. Powered by HTML5/CSS3<br />
-					Orcur Theme by Rene Merino</span>
-				</div><!-- #footer-info -->
-				<div id="social" class="six columns">
-		    		<ul>
-		    			<li>Ci trovi su:</li>
-		    			<li class="twitter"><a href="https://twitter.com/linuxdayitalia">Twitter</a></li>
-		    			<li class="facebook"><a href="https://www.facebook.com/LinuxDayTorino">Facebook</a></li>
-		    			<li class="youtube"><a href="http://www.youtube.com/user/LinuxDayTorino">Youtube</a></li>
-		    		</ul>
-		    	</div><!-- end #social -->
-			</div><!-- .container -->
-		</div><!-- #footer-bottom-wraper -->
-	</div><!-- #footer-wraper -->
+                <h2 class="center">Chi Siamo</h2>
+                <p>Il Comitato Linux Day Torino &egrave; un collettivo informale, anarchico, entropico e destrutturato di persone ed associazioni che dal 2007 collaborano per l'organizzazione e l'allestimento dell'implementazione torinese del Linux Day. Il gruppo si coordina per mezzo di una <a href="http://linuxdaytorino.org/cgi-bin/mailman/listinfo/organizzazione">mailing list</a>, pubblica e aperta a tutti gli interessati.</p>
+                <p>Le passate edizioni del Linux Day Torino:</p>
+                <ul class="check">
+                    <li><a href="http://linuxdaytorino.org/2012">2012 - Cortile del Maglio</a></li>
+                    <li><a href="http://linuxdaytorino.org/2011">2011 - Cascina Roccafranca</a></li>
+                    <li><a href="http://linuxdaytorino.org/2010">2010 - Cascina Roccafranca</a></li>
+                    <li><a href="http://linuxdaytorino.org/2009">2009 - Cascina Roccafranca</a></li>
+                    <li><a href="http://linuxdaytorino.org/2008">2008 - Cascina Roccafranca</a></li>
+                    <li><a href="http://linuxdaytorino.org/2007">2007 - Cascina Roccafranca</a></li>
+                </ul>
+            </div><!-- .container-box-inner -->
+        </div><!-- .container-box -->
+        <div class="box-bottom bottom-full"></div>
+    </div><!-- .twelve -->
 
-	<!-- JavaScript
-	================================================== -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	
-	<!-- All Scripts -->
-	<script type="text/javascript" src="js/scripts.js"></script>
-	<!-- jQuery Countdown -->
-	<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-	<!-- Easing plugin -->
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<!-- prettyPhoto -->
-	<script src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
-	<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css" media="screen" />
-
-	
-</body>
-</html>
+</div><!-- container -->
