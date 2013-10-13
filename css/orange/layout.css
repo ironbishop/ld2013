@@ -1052,3 +1052,20 @@ ul#speakers-secondary-list {
     font-style: normal;
 
 }
+
+table .first {
+     border-right: 1px dotted #000000;
+}
+
+table thead {
+     border-bottom: 1px dotted #000000;
+}
+
+table tr th {
+     font-weight: bold;
+}
+
+table tr td {
+     padding: 7px;
+}
+
