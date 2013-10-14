@@ -1,0 +1,239 @@
+[
+    {
+        "id": "MarcoDorigo",
+        "title": "Primi passi con Linux",
+        "where": "Aula Base",
+        "speakers": [
+            {
+                "who": "Marco Dorigo",
+                "web": "http://informaticalibera.info"
+            }
+        ],
+        "abstract": "Ci siamo lasciati convincere dall'immancabile amico smanettone e finalmente abbiamo installato Linux. Subito cominciano le cattive notizie: &egrave; diverso da Windows! Ma dove sono i nostri programmi? Perch&egrave; xyz.exe non si installa? Come si installa nuovo software? E se non funzionano le periferiche? Come si fa ad \"andare su Internet\"? Introduzione alla sopravvivenza in ambienti (operativi) ostili."
+    },
+    {
+        "id": "GuidoAudino",
+        "title": "Installiamo insieme Debian",
+        "where": "Aula Base",
+        "speakers": [
+            {
+                "who": "Guido Audino",
+                "web": "http://www.mag4.it/chisiamo/struttura/309-rete-computer.html"
+            }
+        ],
+        "abstract": "Installazione dal vivo di Debian Live 7.0 LXDE, utile per verificare la compatibilit&agrave; dell'hardware, adatta a computer nuovi o un po' datati, facile da mantenere aggiornata: insomma un ottimo esempio di Software libero!"
+    },
+    {
+        "id": "MassimoNuvoli",
+        "title": "Come &egrave; strutturato un Sistema GNU/Linux",
+        "where": "Aula Base",
+        "speakers": [
+            {
+                "who": "Massimo Nuvoli",
+                "email": "maxnuv@gmail.com"
+            }
+        ],
+        "abstract": "Conoscere come &egrave; fatto GNU/Linux potrebbe esservi utile per non fare errori durante l'installazione, o  banalmente per sfruttarlo meglio.<br/>Vediamo di capire semplicemente come &egrave; fatto, seguendolo dall'accensione al lancio di una applicazione in ambiente grafico.<br/>Cercheremo anche di dare risposte a domande come \"32 o 64 bit?\" o \"metto tutto in una partizione?\" e altre che emergeranno durante la conversazione."
+    },
+    {
+        "id": "MarcoBodrato",
+        "title": "Corsi Online per Insegnanti",
+        "where": "Aula Base",
+        "speakers": [
+            {
+                "who": "Marco Bodrato"
+            }
+        ],
+        "abstract": "Breve storia del percorso che dalla legge regionale sul Software Libero ha portato alla piattaforma teachmood.it e alla realizzazione di corsi per i docenti su diversi software liberi utilizzabili nella didattica. Presentazione della piattaforma e dei corsi."
+    },
+    {
+        "id": "GiorgioFerrero",
+        "title": "Fotografia Digitale",
+        "where": "Aula Medium",
+        "speakers": [
+            {
+                "who": "Giorgio Ferrero"
+            }
+        ],
+        "abstract": "Panoramiche a 360 gradi con utilizzo del programma Hugin Panorama photo stitcher e Gimp per ritocco finale del cielo blu ed esportazione in jpeg compresso. Utilizzo di fotocamera digitale non reflex con obiettivi intercambiabili, utilizzo di vecchi obiettivi (di 40 anni fa) a focale fissa (non zoom), esposizione manuale e messa a fuoco manuale (fatta una sola volta per tutte le foto), uso del cavalletto, filo telecomando per scatti antivibrazioni."
+    },
+    {
+        "id": "Cheip",
+        "title": "Il terminale per tutti",
+        "where": "Aula Medium",
+        "speakers": [
+            {
+                "who": "Simone Capodicasa",
+                "twitter": "followCheip"
+            }
+        ],
+        "abstract": "Un talk per \"assaggiare\" la potenza del terminale, farvi venire la voglia di utilizzare questo strumento nella vita quotidiana e consigliarvi qualche trucchetto."
+    },
+    {
+        "id": "IronBishop",
+        "title": "Quante ne sai?",
+        "where": "Aula Medium",
+        "speakers": [
+            {
+                "who": "IronBishop",
+                "web": "http://fsfe.org/fellowship/"
+            },
+            {
+                "who": "Abacus",
+                "web": "http://isoardi.info/"
+            }
+        ],
+        "abstract": "Torna a grande richiesta il talk interattivo tra hacking e fooling: \"premi la patata\" e rispondi alle domande! Quante SLOC ci sono in Debian? Kryptonite &egrave; un manuale di ...? Qual &egrave; la nave pi&ugrave; veloce della galassia? Ispirato senza ritegno ai blasonati contest della costa ovest: un'oretta di svago tra nozioni tecniche, meno tecniche e decisamente bizzarre. Ricchi premi e cotillons. Con il supporto di: Raspberry Pi, node.js e gli immancabili, celeberrimi biscotti."
+    },
+    {
+        "id": "MarcoZanasso",
+        "title": "Asterisk: centralino VoIP FLOSS",
+        "where": "Aula Advanced",
+        "speakers": [
+            {
+                "who": "Marco Zanasso",
+                "web": "http://www.itfor.it/",
+                "email": "marco.zanasso@itfor.it"
+            }
+        ],
+        "abstract": "Configurazione di un centralino telefonico (PBX) basato su  Asterisk comprensivo di periferiche (telefoni VoIP, PortAdapter analogici, GSMbox, ecc.)"
+    },
+    {
+        "id": "FedericoFissore",
+        "title": "Arduino Y&uacute;n",
+        "where": "Aula Advanced",
+        "speakers": [
+            {
+                "who": "Federico Fissore",
+                "twitter": "fridrik",
+                "web": "http://fissore.org/"
+            }
+        ],
+        "abstract": "Introduzione ad Arduino Y&uacute;n, la prima scheda Arduino dotata di un processore dedicato a Linux che affianca e potenzia le capacit&agrave; del microcontrollore."
+    },
+    {
+        "id": "DimitriBellini",
+        "title": "Zabbix: Monitoring is possible",
+        "where": "Aula Advanced",
+        "speakers": [
+            {
+                "who": "Dimitri Bellini",
+                "web": "http://www.quadrata.it/",
+                "email": "dimitri.bellini@quadrata.it"
+            }
+        ],
+        "abstract": "Introduzione a Zabbix, soluzione di Monitoring Opensource adattabile a varie realta', dal privato all'Enterprise. Concetti, caratteristiche di base e scenari di utilizzo."
+    },
+    {
+        "id": "PaoloDoz",
+        "title": "Fastboot in sistemi embedded",
+        "where": "Aula Advanced",
+        "speakers": [
+            {
+                "who": "Paolo Doz",
+                "web": "http://www.abinsula.com/",
+                "email": "paolo.doz@abinsula.com"
+            },
+            {
+                "who": "Ilario Pittau",
+                "web": "http://www.abinsula.com/",
+                "email": "ilario.pittau@abinsula.com"
+            }
+        ],
+        "abstract": "Il talk ha l'obiettivo di introdurre le tecniche utilizzate per ottimizzare la sequenza di startup di un sistema embedded. Si partir&agrave; con la descrizione del bootloader (u-boot), passando per la configurazione del kernel e infine descrivendo la gestione dell'avvio di servizi in user space (systemd)."
+    },
+    {
+        "id": "Giulio",
+        "title": "MITM e webapp",
+        "where": "Aula Sikurezza",
+        "speakers": [
+            {
+                "who": "Giulio"
+            }
+        ],
+        "abstract": "Partendo da concetti di base come ARP ed SSL si parler&agrave; di tecniche di MITM in relazione con le tecnologie web con dimostrazioni pratiche e suggerimenti sia per la sicurezza personale sia che per quella della propria infrastruttura."
+    },
+    {
+        "id": "KeivanMotavalli",
+        "title": "Quando il nuovo rende insicure le VPN",
+        "where": "Aula Sikurezza",
+        "speakers": [
+            {
+                "who": "Keivan Motavalli"
+            }
+        ],
+        "abstract": "Sfruttando il poco conosciuto IPv6 si pu&ograve; creare una condizione di rete per la quale il traffico, normalmente diretto su una vpn sicura, viene deviato verso un proxy dell'attaccante."
+    },
+    {
+        "id": "BughardyEagle",
+        "title": "Mifare Ultralight: Istruzioni per l'Uso",
+        "where": "Aula Sikurezza",
+        "speakers": [
+            {
+                "who": "BugHardy"
+            },
+            {
+                "who": "Eagle"
+            }
+        ],
+        "abstract": "Uno degli utilizzi più comuni dei chip NFC riguarda i sistemi di trasporto pubblico, in cui spesso si può riscontrare una scorretta implementazione del protocollo Mifare Ultralight. Essendo sprovvisto di un sistema di cifratura hardware, è semplice interagire con il chip e accedere ai dati memorizzati sullo stesso. La nostra ricerca si prefigge di illustrare a tutti le caratteristiche di un biglietto NFC Mifare Ultralight ed evidenziare l’utilizzo adeguato dei bytes del settore \"OTP\"."
+    },
+    {
+        "id": "PaoloStagno",
+        "title": "Penetration Test con Kali Linux",
+        "where": "Aula Sikurezza",
+        "speakers": [
+            {
+                "who": "Paolo Stagno"
+            }
+        ],
+        "abstract": "Il crescente trend dei cyber attacchi pone a chiunque lavori nel campo IT alcuni importanti quesiti: Quali sono le armi che vengono usate? Siamo pronti? Per rispondere, parleremo di Kali Linux: distribuzione pensata per la sicurezza informatica e i suoi strumenti, che possono identificare una vulnerabilità o compromettere un sitema.  Il talk si snoderà affrontando alcuni aspetti di un attacco informatico, concludendo infine con alcune possibili contromisure."
+    },
+    {
+        "id": "DavideMainardi",
+        "title": "Privacy ed anonimato su Internet",
+        "where": "Aula Cloud",
+        "speakers": [
+            {
+                "who": "Davide Mainardi"
+            }
+        ],
+        "abstract": "Il talk si prefigge di illustrare il modo in cui le nostre informazioni personali viaggino in rete: il tracking, il filter-bubbling dei motori di ricerca ed il caso PRISM. Successivamente si presenteranno tecniche e software open-source per navigare al sicuro da ogni tracciabilit&agrave; ed eventualmente in anonimato."
+    },
+    {
+        "id": "LuigiMaselli",
+        "title": "MeteorJS & webapp in Realtime",
+        "where": "Aula Cloud",
+        "speakers": [
+            {
+                "who": "Luigi Maselli",
+                "twitter": "grigi0"
+            }
+        ],
+        "abstract": "Le applicazioni web per essere reattive e sicure devono fare controlli sia lato client che lato server, questo comporta duplicazione di codice e spesso l'utilizzo di diversi linguaggi di programmazione. MeteorJS, basato su NodeJS, offre un ambiente unico per poter programmare in javascript codice che potr&agrave; girare indifferentemente sul browser o sul server o su entrambi."
+    },
+    {
+        "id": "AndreaNegro",
+        "title": "I Database non Relazionali",
+        "where": "Aula Cloud",
+        "speakers": [
+            {
+                "who": "Andrea Negro"
+            }
+        ],
+        "abstract": "I database non relazionali, pur non essendo una novità assoluta, hanno registrato una crescita esponenziale nel loro sviluppo e utilizzo negli ultimi anni grazie al sempre più crescente bisogno di scalare in orizzontale, dove i classici RDBMS (database relazionali) presentano diverse limitazioni. I giganti del web, che si trovano a dover gestire database di dimensioni veramente imponenti, hanno sviluppato (o contribuito allo sviluppo) vari NRDBMS (database non relazionali)."
+    },
+    {
+        "id": "AndreaDEste",
+        "title": "Plone CMS & Ploomcake",
+        "where": "Aula Cloud",
+        "speakers": [
+            {
+                "who": "Andrea D'Este",
+                "web": "http://redomino.com/",
+                "twitter": "ade_eddie"
+            }
+        ],
+        "abstract": "Plone &egrave; un gestore di contenuti open source sviluppato in Python. Il suo punto di forza &egrave; la flessibilit&agrave;. Con Plone si possono creare siti web, cataloghi prodotti, intranet, gestori documentali, gestori di progetti. Vediamo insieme alcuni esempi da fare in 10 minuti partendo da Ploomcake, una distribuzione Plone."
+    }
+]
