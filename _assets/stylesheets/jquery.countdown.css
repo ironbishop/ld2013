@@ -24,7 +24,7 @@
 	width: 32.5%;
 }
 .countdown_show4 .countdown_section {
-	background: url('../../images/counter-divider.jpg') right no-repeat;
+	background: url('../images/counter-divider.jpg') right no-repeat;
 	width: 20%;
 	padding-right: 4%;
 }

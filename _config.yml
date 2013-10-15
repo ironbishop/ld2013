@@ -1,11 +1,11 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
-destination: "2013"
+destination: "_site/2013"
 
 assets:
   js_compressor:  uglifier
   css_compressor: sass
   baseurl: "/2013/assets/"
 
-exclude: ["Gemfile*"]
+exclude: ["Gemfile*", "Readme*"]
