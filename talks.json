@@ -198,7 +198,8 @@
         "where": "Aula Cloud",
         "speakers": [
             {
-                "who": "Davide Mainardi"
+                "who": "Davide Mainardi",
+                "twitter": "ingMainardi"
             }
         ],
         "abstract": "Il talk si prefigge di illustrare il modo in cui le nostre informazioni personali viaggino in rete: il tracking, il filter-bubbling dei motori di ricerca ed il caso PRISM. Successivamente si presenteranno tecniche e software open-source per navigare al sicuro da ogni tracciabilit&agrave; ed eventualmente in anonimato."
