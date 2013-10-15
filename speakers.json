@@ -70,5 +70,11 @@
         "title": "Software Engineer",
         "img": "andrea_negro.jpg",
         "id": "AndreaNegro"
+    },
+    {
+        "name": "Marco Bodrato",
+        "title": "Ricercatore",
+        "img": "marco_bodrato.jpg",
+        "id": "MarcoBodrato"
     }
 ]

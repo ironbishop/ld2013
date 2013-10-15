@@ -42,9 +42,12 @@
         "speakers": [
             {
                 "who": "Marco Bodrato"
+            },
+            {
+                "who": "Nicola Franzese"
             }
         ],
-        "abstract": "Breve storia del percorso che dalla legge regionale sul Software Libero ha portato alla piattaforma teachmood.it e alla realizzazione di corsi per i docenti su diversi software liberi utilizzabili nella didattica. Presentazione della piattaforma e dei corsi."
+        "abstract": "Breve storia del percorso che dalla legge regionale sul Software Libero ha portato alla piattaforma <a href=\"http://www.teachmood.it/\">teachmood.it</a> e alla realizzazione di corsi per i docenti su diversi software liberi utilizzabili nella didattica. Presentazione della piattaforma e dei corsi."
     },
     {
         "id": "GiorgioFerrero",
