@@ -260,7 +260,7 @@
 }
 
 	#tweet ul {
-		background: url('images/icon-twitter-feed.png') 0px 15px no-repeat;
+		background: url('/images/icon-twitter-feed.png') 0px 15px no-repeat;
 		padding-left: 32px;
 	}
 
@@ -296,10 +296,10 @@
 					background: red;
 				}
 				
-				#topSocial li.topTwitter a { background: url('images/icon-twitter.png') top center no-repeat; }
-				#topSocial li.topFacebook a { background: url('images/icon-facebook.png') top center no-repeat; }
-				#topSocial li.topMail a { background: url('images/icon-mail.png') top center no-repeat; }
-				#topSocial li.topRss a { background: url('images/icon-rss.png') top center no-repeat; }
+				#topSocial li.topTwitter a { background: url('/images/icon-twitter.png') top center no-repeat; }
+				#topSocial li.topFacebook a { background: url('/images/icon-facebook.png') top center no-repeat; }
+				#topSocial li.topMail a { background: url('/images/icon-mail.png') top center no-repeat; }
+				#topSocial li.topRss a { background: url('/images/icon-rss.png') top center no-repeat; }
 				
 				#topSocial li.topTwitter a:hover { background-position: bottom center; }
 				#topSocial li.topFacebook a:hover { background-position: bottom center; }
@@ -437,7 +437,7 @@
 				}
 		
 				footer .newsletter-box input[type=button] {
-					background: url('../../images/icon-search.png') center no-repeat #E95D22;
+					background: url('/images/icon-search.png') center no-repeat #E95D22;
 					border: none;
 					border-radius: 5px;
 					width: 35px;
@@ -492,11 +492,11 @@
 					margin-top: 20px;
 				}
 				
-				#footer-bottom #social li.twitter a { background: url('images/icon-twitter.png') top center no-repeat; }
-				#footer-bottom #social li.facebook a { background: url('images/icon-facebook.png') top center no-repeat; }
-				#footer-bottom #social li.vimeo a { background: url('images/icon-vimeo.png') top center no-repeat; }
-				#footer-bottom #social li.youtube a { background: url('images/icon-youtube.png') top center no-repeat; }
-				#footer-bottom #social li.skype a { background: url('images/icon-skype.png') top center no-repeat; }
+				#footer-bottom #social li.twitter a { background: url('/images/icon-twitter.png') top center no-repeat; }
+				#footer-bottom #social li.facebook a { background: url('/images/icon-facebook.png') top center no-repeat; }
+				#footer-bottom #social li.vimeo a { background: url('/images/icon-vimeo.png') top center no-repeat; }
+				#footer-bottom #social li.youtube a { background: url('/images/icon-youtube.png') top center no-repeat; }
+				#footer-bottom #social li.skype a { background: url('/images/icon-skype.png') top center no-repeat; }
 				
 				#footer-bottom #social li.twitter a:hover { background-position: bottom center; }
 				#footer-bottom #social li.facebook a:hover { background-position: bottom center; }
@@ -569,7 +569,7 @@
 
 	.event-date {
 		font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
-		background: url('../../images/icon-calendar-light.png') 10px 8px no-repeat #333;
+		background: url('/images/icon-calendar-light.png') 10px 8px no-repeat #333;
 		padding: 5px 36px;
 		margin-bottom: 10px;
 		color: #DDDDDD;
@@ -579,7 +579,7 @@
 	}
 	
 		.event-date .event-ticker {
-			background: url('images/icon-plus.png');
+			background: url('/images/icon-plus.png');
 			display: block;
 			width: 16px;
 			height: 16px;
@@ -589,7 +589,7 @@
 		}
 		
 			.event-date .minus {
-				background: url('images/icon-minus.png') !important;
+				background: url('/images/icon-minus.png') !important;
 			}
 	
 	.event-title {
@@ -600,13 +600,13 @@
 	
 	.event-place {
 		font-size: 13px;
-		background: url('../../images/icon-pin.png') left no-repeat;
+		background: url('/images/icon-pin.png') left no-repeat;
 		padding-left: 18px;
 	}
 	
 	.event-speaker {
 		font-size: 13px;
-		background: url('../../images/icon-user.png') left no-repeat;
+		background: url('/images/icon-user.png') left no-repeat;
 		padding-left: 20px;
 		margin-left: 20px;
 	}
@@ -671,23 +671,23 @@ ul#speakers-secondary-list {
 		cursor: pointer;
 	}
 	
-	.post-meta .standard { background: url('../../images/icon-format-standard.png') center no-repeat #333; }
-	.post-meta .aside { background: url('../../images/icon-format-aside.png') center no-repeat #333; }
-	.post-meta .audio { background: url('../../images/icon-format-audio.png') center no-repeat #333; }
-	.post-meta .chat { background: url('../../images/icon-format-chat.png') center no-repeat #333; }
-	.post-meta .gallery { background: url('../../images/icon-format-gallery.png') center no-repeat #333; }
-	.post-meta .image { background: url('../../images/icon-format-image.png') center no-repeat #333; }
-	.post-meta .link { background: url('../../images/icon-format-link.png') center no-repeat #333; }
-	.post-meta .video { background: url('../../images/icon-format-video.png') center no-repeat #333; }
+	.post-meta .standard { background: url('/images/icon-format-standard.png') center no-repeat #333; }
+	.post-meta .aside { background: url('/images/icon-format-aside.png') center no-repeat #333; }
+	.post-meta .audio { background: url('/images/icon-format-audio.png') center no-repeat #333; }
+	.post-meta .chat { background: url('/images/icon-format-chat.png') center no-repeat #333; }
+	.post-meta .gallery { background: url('/images/icon-format-gallery.png') center no-repeat #333; }
+	.post-meta .image { background: url('/images/icon-format-image.png') center no-repeat #333; }
+	.post-meta .link { background: url('/images/icon-format-link.png') center no-repeat #333; }
+	.post-meta .video { background: url('/images/icon-format-video.png') center no-repeat #333; }
 	
-	.post-meta .standard:hover { background: url('../../images/icon-format-standard.png') center no-repeat #E95D22; }
-	.post-meta .aside:hover { background: url('../../images/icon-format-aside.png') center no-repeat #E95D22; }
-	.post-meta .audio:hover { background: url('../../images/icon-format-audio.png') center no-repeat #E95D22; }
-	.post-meta .chat:hover { background: url('../../images/icon-format-chat.png') center no-repeat #E95D22; }
-	.post-meta .gallery:hover { background: url('../../images/icon-format-gallery.png') center no-repeat #E95D22; }
-	.post-meta .image:hover { background: url('../../images/icon-format-image.png') center no-repeat #E95D22; }
-	.post-meta .link:hover { background: url('../../images/icon-format-link.png') center no-repeat #E95D22; }
-	.post-meta .video:hover { background: url('../../images/icon-format-video.png') center no-repeat #E95D22; }
+	.post-meta .standard:hover { background: url('/images/icon-format-standard.png') center no-repeat #E95D22; }
+	.post-meta .aside:hover { background: url('/images/icon-format-aside.png') center no-repeat #E95D22; }
+	.post-meta .audio:hover { background: url('/images/icon-format-audio.png') center no-repeat #E95D22; }
+	.post-meta .chat:hover { background: url('/images/icon-format-chat.png') center no-repeat #E95D22; }
+	.post-meta .gallery:hover { background: url('/images/icon-format-gallery.png') center no-repeat #E95D22; }
+	.post-meta .image:hover { background: url('/images/icon-format-image.png') center no-repeat #E95D22; }
+	.post-meta .link:hover { background: url('/images/icon-format-link.png') center no-repeat #E95D22; }
+	.post-meta .video:hover { background: url('/images/icon-format-video.png') center no-repeat #E95D22; }
 
 	.post-meta span {
 		font-size: 12px;
@@ -742,7 +742,7 @@ ul#speakers-secondary-list {
 
 /* Sidebar/Widgets */
 .side-twitter li {
-	background: url("../../images/icon-quotes.png") no-repeat scroll 0 4px transparent;
+	background: url("/images/icon-quotes.png") no-repeat scroll 0 4px transparent;
     line-height: 1.5;
     padding-left: 16px;
     margin-bottom: 20px;
@@ -1047,15 +1047,15 @@ ul#speakers-secondary-list {
 }
 
 .userIcons a.topWeb {
-    background: url('images/icon-web.png') top center no-repeat;
+    background: url('../../../images/icon-web.png') top center no-repeat;
 }
 
 .userIcons a.topTwitter {
-    background: url('images/icon-twitter.png') top center no-repeat;
+    background: url('../../../images/icon-twitter.png') top center no-repeat;
 }
 
 .userIcons a.topMail {
-    background: url('images/icon-mail.png') top center no-repeat;
+    background: url('../../../images/icon-mail.png') top center no-repeat;
 }
 
 table .first {

@@ -260,7 +260,7 @@
 }
 
 	#tweet ul {
-		background: url('images/icon-twitter-feed.png') 0px 15px no-repeat;
+		background: url('../../../images/icon-twitter-feed.png') 0px 15px no-repeat;
 		padding-left: 32px;
 	}
 
@@ -296,10 +296,10 @@
 					background: red;
 				}
 				
-				#topSocial li.topTwitter a { background: url('images/icon-twitter.png') top center no-repeat; }
-				#topSocial li.topFacebook a { background: url('images/icon-facebook.png') top center no-repeat; }
-				#topSocial li.topMail a { background: url('images/icon-mail.png') top center no-repeat; }
-				#topSocial li.topRss a { background: url('images/icon-rss.png') top center no-repeat; }
+				#topSocial li.topTwitter a { background: url('../../../images/icon-twitter.png') top center no-repeat; }
+				#topSocial li.topFacebook a { background: url('../../../images/icon-facebook.png') top center no-repeat; }
+				#topSocial li.topMail a { background: url('../../../images/icon-mail.png') top center no-repeat; }
+				#topSocial li.topRss a { background: url('../../../images/icon-rss.png') top center no-repeat; }
 				
 				#topSocial li.topTwitter a:hover { background-position: bottom center; }
 				#topSocial li.topFacebook a:hover { background-position: bottom center; }
@@ -493,11 +493,11 @@
 					margin-top: 20px;
 				}
 				
-				#footer-bottom #social li.twitter a { background: url('images/icon-twitter.png') top center no-repeat; }
-				#footer-bottom #social li.facebook a { background: url('images/icon-facebook.png') top center no-repeat; }
-				#footer-bottom #social li.vimeo a { background: url('images/icon-vimeo.png') top center no-repeat; }
-				#footer-bottom #social li.youtube a { background: url('images/icon-youtube.png') top center no-repeat; }
-				#footer-bottom #social li.skype a { background: url('images/icon-skype.png') top center no-repeat; }
+				#footer-bottom #social li.twitter a { background: url('../../../images/icon-twitter.png') top center no-repeat; }
+				#footer-bottom #social li.facebook a { background: url('../../../images/icon-facebook.png') top center no-repeat; }
+				#footer-bottom #social li.vimeo a { background: url('../../../images/icon-vimeo.png') top center no-repeat; }
+				#footer-bottom #social li.youtube a { background: url('../../../images/icon-youtube.png') top center no-repeat; }
+				#footer-bottom #social li.skype a { background: url('../../../images/icon-skype.png') top center no-repeat; }
 				
 				#footer-bottom #social li.twitter a:hover { background-position: bottom center; }
 				#footer-bottom #social li.facebook a:hover { background-position: bottom center; }
@@ -580,7 +580,7 @@
 	}
 	
 		.event-date .event-ticker {
-			background: url('images/icon-plus.png');
+			background: url('../../../images/icon-plus.png');
 			display: block;
 			width: 16px;
 			height: 16px;
@@ -590,7 +590,7 @@
 		}
 		
 			.event-date .minus {
-				background: url('images/icon-minus.png') !important;
+				background: url('../../../images/icon-minus.png') !important;
 			}
 	
 	.event-title {
