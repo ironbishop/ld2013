@@ -223,6 +223,9 @@
         "speakers": [
             {
                 "who": "Andrea Negro"
+            },
+            {
+                "who": "Mariano Fiorentino"
             }
         ],
         "abstract": "I database non relazionali, pur non essendo una novità assoluta, hanno registrato una crescita esponenziale nel loro sviluppo e utilizzo negli ultimi anni grazie al sempre più crescente bisogno di scalare in orizzontale, dove i classici RDBMS (database relazionali) presentano diverse limitazioni. I giganti del web, che si trovano a dover gestire database di dimensioni veramente imponenti, hanno sviluppato (o contribuito allo sviluppo) vari NRDBMS (database non relazionali)."
