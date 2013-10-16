@@ -76,5 +76,11 @@
         "title": "Ricercatore",
         "img": "marco_bodrato.jpg",
         "id": "MarcoBodrato"
+    },
+    {
+        "name": "Iron",
+        "title": "Gestore di Sistemi",
+        "img": "iron.jpg",
+        "id": "IronBishop"
     }
 ]

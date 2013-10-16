@@ -86,7 +86,7 @@
                 "web": "http://isoardi.info/"
             }
         ],
-        "abstract": "Torna a grande richiesta il talk interattivo tra hacking e fooling: \"premi la patata\" e rispondi alle domande! Quante SLOC ci sono in Debian? Kryptonite &egrave; un manuale di ...? Qual &egrave; la nave pi&ugrave; veloce della galassia? Ispirato senza ritegno ai blasonati contest della costa ovest: un'oretta di svago tra nozioni tecniche, meno tecniche e decisamente bizzarre. Ricchi premi e cotillons. Con il supporto di: Raspberry Pi, node.js e gli immancabili, celeberrimi biscotti."
+        "abstract": "Torna a grande richiesta il talk interattivo tra hacking e fooling: \"premi la patata\" e rispondi alle domande! Quante <em>SLOC</em> ci sono in Debian? <em>Kryptonite</em> &egrave; un manuale di ...? Qual &egrave; la nave pi&ugrave; <em>veloce</em> della galassia? Ispirato senza ritegno ai blasonati contest della costa ovest: un'oretta di svago tra nozioni tecniche, meno tecniche e decisamente bizzarre. Ricchi premi e cotillons. Con il supporto di: <a href=\"http://www.raspberrypi.org\" target=\"_blank\">Raspberry Pi</a>, <a href=\"http://nodejs.org/\" target=\"_blank\">node.js</a> e gli immancabili, celeberrimi biscotti."
     },
     {
         "id": "MarcoZanasso",
