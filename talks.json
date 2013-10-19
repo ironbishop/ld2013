@@ -2,6 +2,7 @@
     {
         "id": "MarcoDorigo",
         "title": "Primi passi con Linux",
+        "when": "14:00",
         "where": "Aula Base",
         "speakers": [
             {
@@ -14,6 +15,7 @@
     {
         "id": "GuidoAudino",
         "title": "Installiamo insieme Debian",
+        "when": "15:00",
         "where": "Aula Base",
         "speakers": [
             {
@@ -26,6 +28,7 @@
     {
         "id": "MassimoNuvoli",
         "title": "Come &egrave; strutturato un Sistema GNU/Linux",
+        "when": "16:00",
         "where": "Aula Base",
         "speakers": [
             {
@@ -38,6 +41,7 @@
     {
         "id": "MarcoBodrato",
         "title": "Corsi Online per Insegnanti",
+        "when": "17:00",
         "where": "Aula Base",
         "speakers": [
             {
@@ -52,6 +56,7 @@
     {
         "id": "GiorgioFerrero",
         "title": "Fotografia Digitale",
+        "when": "14:00",
         "where": "Aula Medium",
         "speakers": [
             {
@@ -63,6 +68,7 @@
     {
         "id": "Cheip",
         "title": "Il terminale per tutti",
+        "when": "15:00",
         "where": "Aula Medium",
         "speakers": [
             {
@@ -75,6 +81,7 @@
     {
         "id": "IronBishop",
         "title": "Quante ne sai?",
+        "when": "17:00",
         "where": "Aula Medium",
         "speakers": [
             {
@@ -91,6 +98,7 @@
     {
         "id": "MarcoZanasso",
         "title": "Asterisk: centralino VoIP FLOSS",
+        "when": "15:00",
         "where": "Aula Advanced",
         "speakers": [
             {
@@ -104,7 +112,8 @@
     {
         "id": "FedericoFissore",
         "title": "Arduino Y&uacute;n",
-        "where": "Aula Advanced",
+        "when": "16:00",
+        "where": "Aula Medium",
         "speakers": [
             {
                 "who": "Federico Fissore",
@@ -117,6 +126,7 @@
     {
         "id": "DimitriBellini",
         "title": "Zabbix: Monitoring is possible",
+        "when": "16:00",
         "where": "Aula Advanced",
         "speakers": [
             {
@@ -130,6 +140,7 @@
     {
         "id": "PaoloDoz",
         "title": "Fastboot in sistemi embedded",
+        "when": "17:00",
         "where": "Aula Advanced",
         "speakers": [
             {
@@ -148,6 +159,7 @@
     {
         "id": "Giulio",
         "title": "MITM e webapp",
+        "when": "14:00",
         "where": "Aula Sikurezza",
         "speakers": [
             {
@@ -159,6 +171,7 @@
     {
         "id": "KeivanMotavalli",
         "title": "Quando il nuovo rende insicure le VPN",
+        "when": "15:00",
         "where": "Aula Sikurezza",
         "speakers": [
             {
@@ -169,7 +182,8 @@
     },
     {
         "id": "BughardyEagle",
-        "title": "Mifare Ultralight: Istruzioni per l'Uso",
+        "title": "Mifare Ultralight: Istruzioni per l'uso",
+        "when": "17:00",
         "where": "Aula Sikurezza",
         "speakers": [
             {
@@ -184,6 +198,7 @@
     {
         "id": "PaoloStagno",
         "title": "Penetration Test con Kali Linux",
+        "when": "16:00",
         "where": "Aula Sikurezza",
         "speakers": [
             {
@@ -195,6 +210,7 @@
     {
         "id": "DavideMainardi",
         "title": "Privacy ed anonimato su Internet",
+        "when": "14:00",
         "where": "Aula Cloud",
         "speakers": [
             {
@@ -207,6 +223,7 @@
     {
         "id": "LuigiMaselli",
         "title": "MeteorJS & webapp in Realtime",
+        "when": "15:00",
         "where": "Aula Cloud",
         "speakers": [
             {
@@ -219,6 +236,7 @@
     {
         "id": "AndreaNegro",
         "title": "I Database non Relazionali",
+        "when": "16:00",
         "where": "Aula Cloud",
         "speakers": [
             {
@@ -233,6 +251,7 @@
     {
         "id": "AndreaDEste",
         "title": "Plone CMS & Ploomcake",
+        "when": "17:00",
         "where": "Aula Cloud",
         "speakers": [
             {
