@@ -608,7 +608,7 @@
 		font-size: 13px;
 		background: url('../images/icon-user.png') left no-repeat;
 		padding-left: 20px;
-		margin-left: 20px;
+		margin-left: 5px;
 	}
 	
 	.event-wraper > p {
@@ -1040,8 +1040,8 @@ ul#speakers-secondary-list {
 .userIcons a.topTwitter,
 .userIcons a.topMail {
     text-indent: -9999px;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     display: inline-block;
     background: red;
 }
