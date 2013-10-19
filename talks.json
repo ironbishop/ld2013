@@ -66,7 +66,7 @@
         "abstract": "Panoramiche a 360 gradi con utilizzo del programma Hugin Panorama photo stitcher e Gimp per ritocco finale del cielo blu ed esportazione in jpeg compresso. Utilizzo di fotocamera digitale non reflex con obiettivi intercambiabili, utilizzo di vecchi obiettivi (di 40 anni fa) a focale fissa (non zoom), esposizione manuale e messa a fuoco manuale (fatta una sola volta per tutte le foto), uso del cavalletto, filo telecomando per scatti antivibrazioni."
     },
     {
-        "id": "Cheip",
+        "id": "Simone Capodicasa",
         "title": "Il terminale per tutti",
         "when": "15:00",
         "where": "Aula Medium",
@@ -77,6 +77,20 @@
             }
         ],
         "abstract": "Un talk per \"assaggiare\" la potenza del terminale, farvi venire la voglia di utilizzare questo strumento nella vita quotidiana e consigliarvi qualche trucchetto."
+    },
+    {
+        "id": "FedericoFissore",
+        "title": "Arduino Y&uacute;n",
+        "when": "16:00",
+        "where": "Aula Medium",
+        "speakers": [
+            {
+                "who": "Federico Fissore",
+                "twitter": "fridrik",
+                "web": "http://fissore.org/"
+            }
+        ],
+        "abstract": "Introduzione ad Arduino Y&uacute;n, la prima scheda Arduino dotata di un processore dedicato a Linux che affianca e potenzia le capacit&agrave; del microcontrollore."
     },
     {
         "id": "IronBishop",
@@ -96,6 +110,19 @@
         "abstract": "Torna a grande richiesta il talk interattivo tra hacking e fooling: \"premi la patata\" e rispondi alle domande! Quante <em>SLOC</em> ci sono in Debian? <em>Kryptonite</em> &egrave; un manuale di ...? Qual &egrave; la nave pi&ugrave; <em>veloce</em> della galassia? Ispirato senza ritegno ai blasonati contest della costa ovest: un'oretta di svago tra nozioni tecniche, meno tecniche e decisamente bizzarre. Ricchi premi e cotillons. Con il supporto di: <a href=\"http://www.raspberrypi.org\" target=\"_blank\">Raspberry Pi</a>, <a href=\"http://nodejs.org/\" target=\"_blank\">node.js</a> e gli immancabili, celeberrimi biscotti."
     },
     {
+        "id": "DavideMainardi",
+        "title": "Privacy ed anonimato su Internet",
+        "when": "14:00",
+        "where": "Aula Advanced",
+        "speakers": [
+            {
+                "who": "Davide Mainardi",
+                "twitter": "ingMainardi"
+            }
+        ],
+        "abstract": "Il talk si prefigge di illustrare il modo in cui le nostre informazioni personali viaggino in rete: il tracking, il filter-bubbling dei motori di ricerca ed il caso PRISM. Successivamente si presenteranno tecniche e software open-source per navigare al sicuro da ogni tracciabilit&agrave; ed eventualmente in anonimato."
+    },
+    {
         "id": "MarcoZanasso",
         "title": "Asterisk: centralino VoIP FLOSS",
         "when": "15:00",
@@ -107,21 +134,7 @@
                 "email": "marco.zanasso@itfor.it"
             }
         ],
-        "abstract": "Configurazione di un centralino telefonico (PBX) basato su  Asterisk comprensivo di periferiche (telefoni VoIP, PortAdapter analogici, GSMbox, ecc.)"
-    },
-    {
-        "id": "FedericoFissore",
-        "title": "Arduino Y&uacute;n",
-        "when": "16:00",
-        "where": "Aula Medium",
-        "speakers": [
-            {
-                "who": "Federico Fissore",
-                "twitter": "fridrik",
-                "web": "http://fissore.org/"
-            }
-        ],
-        "abstract": "Introduzione ad Arduino Y&uacute;n, la prima scheda Arduino dotata di un processore dedicato a Linux che affianca e potenzia le capacit&agrave; del microcontrollore."
+        "abstract": "Configurazione di un centralino telefonico (PBX) basato su Asterisk comprensivo di periferiche (telefoni VoIP, PortAdapter analogici, GSMbox, ecc.). Non tutti sanno che con un PC, GNU/Linux e Asterisk è possibile realizzare un centralino telefonico. Poche nozioni teoriche per passare subito alla configurazione del PBX Asterisk e delle periferiche che saranno utilizzate in diretta dai partecipanti."
     },
     {
         "id": "DimitriBellini",
@@ -181,6 +194,18 @@
         "abstract": "Sfruttando il poco conosciuto IPv6 si pu&ograve; creare una condizione di rete per la quale il traffico, normalmente diretto su una vpn sicura, viene deviato verso un proxy dell'attaccante."
     },
     {
+        "id": "PaoloStagno",
+        "title": "Penetration Test con Kali Linux",
+        "when": "16:00",
+        "where": "Aula Sikurezza",
+        "speakers": [
+            {
+                "who": "Paolo Stagno"
+            }
+        ],
+        "abstract": "Il crescente trend dei cyber attacchi pone a chiunque lavori nel campo IT alcuni importanti quesiti: Quali sono le armi che vengono usate? Siamo pronti? Per rispondere, parleremo di Kali Linux: distribuzione pensata per la sicurezza informatica e i suoi strumenti, che possono identificare una vulnerabilità o compromettere un sitema.  Il talk si snoderà affrontando alcuni aspetti di un attacco informatico, concludendo infine con alcune possibili contromisure."
+    },
+    {
         "id": "BughardyEagle",
         "title": "Mifare Ultralight: Istruzioni per l'uso",
         "when": "17:00",
@@ -196,47 +221,9 @@
         "abstract": "Uno degli utilizzi più comuni dei chip NFC riguarda i sistemi di trasporto pubblico, in cui spesso si può riscontrare una scorretta implementazione del protocollo Mifare Ultralight. Essendo sprovvisto di un sistema di cifratura hardware, è semplice interagire con il chip e accedere ai dati memorizzati sullo stesso. La nostra ricerca si prefigge di illustrare a tutti le caratteristiche di un biglietto NFC Mifare Ultralight ed evidenziare l’utilizzo adeguato dei bytes del settore \"OTP\"."
     },
     {
-        "id": "PaoloStagno",
-        "title": "Penetration Test con Kali Linux",
-        "when": "16:00",
-        "where": "Aula Sikurezza",
-        "speakers": [
-            {
-                "who": "Paolo Stagno"
-            }
-        ],
-        "abstract": "Il crescente trend dei cyber attacchi pone a chiunque lavori nel campo IT alcuni importanti quesiti: Quali sono le armi che vengono usate? Siamo pronti? Per rispondere, parleremo di Kali Linux: distribuzione pensata per la sicurezza informatica e i suoi strumenti, che possono identificare una vulnerabilità o compromettere un sitema.  Il talk si snoderà affrontando alcuni aspetti di un attacco informatico, concludendo infine con alcune possibili contromisure."
-    },
-    {
-        "id": "DavideMainardi",
-        "title": "Privacy ed anonimato su Internet",
-        "when": "14:00",
-        "where": "Aula Cloud",
-        "speakers": [
-            {
-                "who": "Davide Mainardi",
-                "twitter": "ingMainardi"
-            }
-        ],
-        "abstract": "Il talk si prefigge di illustrare il modo in cui le nostre informazioni personali viaggino in rete: il tracking, il filter-bubbling dei motori di ricerca ed il caso PRISM. Successivamente si presenteranno tecniche e software open-source per navigare al sicuro da ogni tracciabilit&agrave; ed eventualmente in anonimato."
-    },
-    {
-        "id": "LuigiMaselli",
-        "title": "MeteorJS & webapp in Realtime",
-        "when": "15:00",
-        "where": "Aula Cloud",
-        "speakers": [
-            {
-                "who": "Luigi Maselli",
-                "twitter": "grigi0"
-            }
-        ],
-        "abstract": "Le applicazioni web per essere reattive e sicure devono fare controlli sia lato client che lato server, questo comporta duplicazione di codice e spesso l'utilizzo di diversi linguaggi di programmazione. MeteorJS, basato su NodeJS, offre un ambiente unico per poter programmare in javascript codice che potr&agrave; girare indifferentemente sul browser o sul server o su entrambi."
-    },
-    {
         "id": "AndreaNegro",
         "title": "I Database non Relazionali",
-        "when": "16:00",
+        "when": "14:00",
         "where": "Aula Cloud",
         "speakers": [
             {
@@ -247,6 +234,31 @@
             }
         ],
         "abstract": "I database non relazionali, pur non essendo una novità assoluta, hanno registrato una crescita esponenziale nel loro sviluppo e utilizzo negli ultimi anni grazie al sempre più crescente bisogno di scalare in orizzontale, dove i classici RDBMS (database relazionali) presentano diverse limitazioni. I giganti del web, che si trovano a dover gestire database di dimensioni veramente imponenti, hanno sviluppato (o contribuito allo sviluppo) vari NRDBMS (database non relazionali)."
+    },
+    {
+        "id": "LucaCipriani",
+        "title": "Redis per Linux",
+        "when": "15:00",
+        "where": "Aula Cloud",
+        "speakers": [
+            {
+                "who": "Luca Cipriani"
+            }
+        ],
+        "abstract": "Redis come sistema di storage di configurazioni, Etcd. Oltre le sessioni: pub/sub (chat), hipache, AWS ElastiCache per Redis. Master/slave config (il problema di Twilio). Redis come logger e/o queue broker (Logstash)"
+    },
+    {
+        "id": "LuigiMaselli",
+        "title": "MeteorJS & webapp in Realtime",
+        "when": "16:00",
+        "where": "Aula Cloud",
+        "speakers": [
+            {
+                "who": "Luigi Maselli",
+                "twitter": "grigi0"
+            }
+        ],
+        "abstract": "Le applicazioni web per essere reattive e sicure devono fare controlli sia lato client che lato server, questo comporta duplicazione di codice e spesso l'utilizzo di diversi linguaggi di programmazione. MeteorJS, basato su NodeJS, offre un ambiente unico per poter programmare in javascript codice che potr&agrave; girare indifferentemente sul browser o sul server o su entrambi."
     },
     {
         "id": "AndreaDEste",
