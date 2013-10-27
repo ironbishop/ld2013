@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div id="page" class="container container-twelve clearfix">
+
+    {% include countdown.html %}
+
+    <div class="twelve columns">
+        <div class="container-box">
+            <div class="container-box-inner">
+                <h1 class="heading"><span>Foto</span></h1>
+
+                <p>
+                    Alcuni scatti del Linux Day Torino 2013.
+                </p>
+
+                <p>
+                    Se anche tu hai delle foto e vuoi condividerle, mandale a <a href="mailto:linuxdaytorino@gmail.com">linuxdaytorino@gmail.com</a>!
+                </p>
+
+                <div class="lineDivider"></div>
+
+                <div style="text-align: center">
+                    {% for i in (1..16) %}
+                    <a href="images/foto/{{ i }}.jpg"><img src="images/foto/{{ i }}.mini.jpg" /></a>
+                    {% endfor %}
+                </div>
+            </div><!-- .container-box-inner -->
+        </div><!-- .container-box -->
+        <div class="box-bottom bottom-full"></div>
+    </div><!-- .twelve -->
+
+</div><!-- container -->
