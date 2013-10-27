@@ -70,6 +70,7 @@
         "title": "Il terminale per tutti",
         "when": "15:00",
         "where": "Aula Medium",
+        "slides": "http://newton.ph.unito.it/~capodica/site/lib/exe/fetch.php?media=20131026_terminale.pdf",
         "speakers": [
             {
                 "who": "Simone Capodicasa",
@@ -97,6 +98,7 @@
         "title": "Quante ne sai?",
         "when": "17:00",
         "where": "Aula Medium",
+        "repo": "https://bitbucket.com/IronBishop/scimmiaquiz",
         "speakers": [
             {
                 "who": "IronBishop",
@@ -155,6 +157,7 @@
         "title": "Fastboot in sistemi embedded",
         "when": "17:00",
         "where": "Aula Advanced",
+        "slides": "http://users.abinsula.com/~paolodoz/linux_day_2013/Fastboot_in_sistemi_embedded.pdf",
         "speakers": [
             {
                 "who": "Paolo Doz",
@@ -186,6 +189,7 @@
         "title": "Quando il nuovo rende insicure le VPN",
         "when": "15:00",
         "where": "Aula Sikurezza",
+        "slides": "https://motavalli.me/uploads/talk.pdf",
         "speakers": [
             {
                 "who": "Keivan Motavalli"
