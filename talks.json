@@ -85,6 +85,7 @@
         "title": "Arduino Y&uacute;n",
         "when": "16:00",
         "where": "Aula Medium",
+        "slides": "slides/ArduinoYun.odp",
         "speakers": [
             {
                 "who": "Federico Fissore",
