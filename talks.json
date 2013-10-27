@@ -200,7 +200,12 @@
         "where": "Aula Sikurezza",
         "speakers": [
             {
-                "who": "Paolo Stagno"
+                "who": "Paolo Stagno",
+                "web": "http://voidsec.com",
+                "email": "voidsec@voidsec.com"
+            },
+            {
+                "who": "Luca Poletti"
             }
         ],
         "abstract": "Il crescente trend dei cyber attacchi pone a chiunque lavori nel campo IT alcuni importanti quesiti: Quali sono le armi che vengono usate? Siamo pronti? Per rispondere, parleremo di Kali Linux: distribuzione pensata per la sicurezza informatica e i suoi strumenti, che possono identificare una vulnerabilità o compromettere un sitema.  Il talk si snoderà affrontando alcuni aspetti di un attacco informatico, concludendo infine con alcune possibili contromisure."
