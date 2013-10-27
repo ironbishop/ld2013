@@ -178,6 +178,7 @@
         "title": "MITM e webapp",
         "when": "14:00",
         "where": "Aula Sikurezza",
+        "slides": "http://www.autistici.org/bin/doc/ld2013_mitm/",
         "speakers": [
             {
                 "who": "Giulio"
