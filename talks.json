@@ -4,6 +4,7 @@
         "title": "Primi passi con Linux",
         "when": "14:00",
         "where": "Aula Base",
+        "slides": "slides/primipassi.pdf",
         "speakers": [
             {
                 "who": "Marco Dorigo",
@@ -70,7 +71,7 @@
         "title": "Il terminale per tutti",
         "when": "15:00",
         "where": "Aula Medium",
-        "slides": "http://newton.ph.unito.it/~capodica/site/lib/exe/fetch.php?media=20131026_terminale.pdf",
+        "slides": "slides/terminale.pdf",
         "speakers": [
             {
                 "who": "Simone Capodicasa",
@@ -157,7 +158,7 @@
         "title": "Fastboot in sistemi embedded",
         "when": "17:00",
         "where": "Aula Advanced",
-        "slides": "http://users.abinsula.com/~paolodoz/linux_day_2013/Fastboot_in_sistemi_embedded.pdf",
+        "slides": "slides/Fastboot_in_sistemi_embedded.pdf",
         "speakers": [
             {
                 "who": "Paolo Doz",
@@ -189,7 +190,7 @@
         "title": "Quando il nuovo rende insicure le VPN",
         "when": "15:00",
         "where": "Aula Sikurezza",
-        "slides": "https://motavalli.me/uploads/talk.pdf",
+        "slides": "slides/vpn.pdf",
         "speakers": [
             {
                 "who": "Keivan Motavalli"
@@ -261,6 +262,7 @@
         "title": "MeteorJS & webapp in Realtime",
         "when": "16:00",
         "where": "Aula Cloud",
+        "slides": "http://grigio.org/meteor-rt/index.html",
         "speakers": [
             {
                 "who": "Luigi Maselli",
