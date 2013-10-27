@@ -177,6 +177,7 @@
         "title": "MITM e webapp",
         "when": "14:00",
         "where": "Aula Sikurezza",
+        "slides": "http://www.autistici.org/bin/doc/ld2013_mitm.tar.gz",
         "speakers": [
             {
                 "who": "Giulio"
@@ -256,6 +257,7 @@
         "title": "MeteorJS & webapp in Realtime",
         "when": "16:00",
         "where": "Aula Cloud",
+        "slides": "http://grigio.org/meteor-rt/index.html",
         "speakers": [
             {
                 "who": "Luigi Maselli",
