@@ -23,7 +23,7 @@ layout: default
 
                 <div style="text-align: center">
                     {% for i in (1..16) %}
-                    <a href="images/foto/{{ i }}.jpg"><img src="images/foto/{{ i }}.mini.jpg" /></a>
+                    <a href="images/foto/{{ i }}.jpg" data-lightbox="ld2013"><img src="images/foto/{{ i }}.mini.jpg" /></a>
                     {% endfor %}
                 </div>
             </div><!-- .container-box-inner -->
@@ -32,3 +32,5 @@ layout: default
     </div><!-- .twelve -->
 
 </div><!-- container -->
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/lightbox2/2.6/css/lightbox.css" />
+<script type="text/javascript" src="//cdn.jsdelivr.net/lightbox2/2.6/js/lightbox-2.6.min.js"></script>
